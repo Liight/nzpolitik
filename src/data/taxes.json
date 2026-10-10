@@ -1,0 +1,1078 @@
+{
+  "instruments": [
+    "income_tax",
+    "capital_gains",
+    "wealth_tax",
+    "land_tax",
+    "gst",
+    "company_tax",
+    "carbon_ets",
+    "kiwisaver_super",
+    "other_levy"
+  ],
+  "parties": {
+    "labour": [
+      {
+        "id": "labour-cgt-2026",
+        "instrument": "capital_gains",
+        "title": "28% CGT on investment and commercial property profits",
+        "summary": "Official PDF after RNZ weekend leak: flat 28% on net gains after 1 July 2027 on sale of commercial/residential investment property (family home exempt). Revenue ring-fenced for health including three free GP visits.",
+        "rateOrThreshold": "28% on gains after 1 July 2027; family home/farms exempt",
+        "status": "announced",
+        "sourceIds": [
+          "S70",
+          "S30",
+          "S85"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-cgt-valuation-day",
+        "instrument": "capital_gains",
+        "title": "CGT valuation-day details largely post-election",
+        "summary": "Reported: valuation methodology and defaults largely deferred until after the election (Tax Working Group options).",
+        "rateOrThreshold": "Valuation baseline 1 July 2027; details TBA",
+        "status": "reported",
+        "sourceIds": [
+          "S30b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-no-wealth-tax-campaign",
+        "instrument": "wealth_tax",
+        "title": "Not campaigning on a wealth tax",
+        "summary": "Labour says the only new tax it campaigns on is the property CGT; wealth tax left to partners in any coalition.",
+        "rateOrThreshold": "n/a — not a 2026 Labour campaign wealth tax",
+        "status": "announced",
+        "sourceIds": [
+          "S30",
+          "S70"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-gst-threshold",
+        "instrument": "gst",
+        "title": "Raise GST registration threshold to $80,000",
+        "summary": "Compulsory GST registration threshold raised from $60,000 to $80,000 from 1 July 2028 (not a cut in the 15% GST rate).",
+        "rateOrThreshold": "$80,000 registration threshold from 1 July 2028",
+        "status": "announced",
+        "sourceIds": [
+          "S71"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-investment-boost-repeal",
+        "instrument": "company_tax",
+        "title": "Repeal Investment Boost incentive",
+        "summary": "Fiscal plan books revenue from repealing National's Investment Boost (20% upfront deduction for qualifying new assets); not a change to the 28% headline company rate.",
+        "rateOrThreshold": "Repeal Investment Boost (headline company rate unchanged)",
+        "status": "announced",
+        "sourceIds": [
+          "S72"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-kiwisaver-2026",
+        "instrument": "kiwisaver_super",
+        "title": "Strengthen KiwiSaver (employer-led)",
+        "summary": "Compulsory employer contributions from 1 July 2028 rising to 6% by 2032; default employee 4%; parental leave and over-65 employer contributions.",
+        "rateOrThreshold": "Employer to 6% by 2032; compulsory from 1 July 2028",
+        "status": "announced",
+        "sourceIds": [
+          "S73",
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-ets-review",
+        "instrument": "carbon_ets",
+        "title": "ETS review / stronger carbon price (not a carbon tax)",
+        "summary": "Urgent ETS review aiming for a meaningful carbon price; pause new forestry ETS registrations during review; will not campaign on agricultural emissions pricing.",
+        "rateOrThreshold": "No $/tonne target stated",
+        "status": "announced",
+        "sourceIds": [
+          "S86"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-streaming-levy-denied",
+        "instrument": "other_levy",
+        "title": "Streaming services levy — denied",
+        "summary": "Hipkins ruled out a streamers levy; related member's bill removed from ballot — not election policy.",
+        "rateOrThreshold": "n/a",
+        "status": "denied",
+        "sourceIds": [
+          "S74"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-tobacco-excise-reverse",
+        "instrument": "other_levy",
+        "title": "Reverse tobacco excise cut",
+        "summary": "Fiscal plan includes reversing National's tobacco tax cut as a revenue line.",
+        "rateOrThreshold": "See fiscal plan table for amounts",
+        "status": "announced",
+        "sourceIds": [
+          "S72"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "green": [
+      {
+        "id": "green-income-tax-2026",
+        "instrument": "income_tax",
+        "title": "Fair income tax restructure",
+        "summary": "Tax-free first $10,000 and stepped bands up to 45% over $160,000; party says 96% get a tax cut. Document also appeared online before the launch press conference.",
+        "rateOrThreshold": "0% to $9,999; then 10%/17.5%/25.5%/30.5%/33.5%; 45% from $160,000",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31",
+          "S75"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-wealth-tax-2026",
+        "instrument": "wealth_tax",
+        "title": "2.5% wealth tax on net assets above $10m",
+        "summary": "Annual tax on net assets above $10m per individual ($20m couple framing in some coverage); family home exempt; trust attribution rules.",
+        "rateOrThreshold": "2.5% p.a. above $10m net (individual)",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-inheritance-2026",
+        "instrument": "other_levy",
+        "title": "Capital Acquisitions Tax 33%",
+        "summary": "33% on assets/gifts received over $1m; family home and family farms exempt.",
+        "rateOrThreshold": "33% above $1m received",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-company-tax-2026",
+        "instrument": "company_tax",
+        "title": "33% company tax for large corporates",
+        "summary": "33% for firms with turnover over $30m; keep 28% for SMEs.",
+        "rateOrThreshold": "33% if turnover > $30m; else 28%",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-bank-levy-2026",
+        "instrument": "other_levy",
+        "title": "Bank levy 0.06%",
+        "summary": "0.06% p.a. on liabilities of banks with over $100b liabilities (big four).",
+        "rateOrThreshold": "0.06% on big-bank liabilities",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-brightline-landlord-2026",
+        "instrument": "capital_gains",
+        "title": "10-year bright-line + reverse interest deductibility",
+        "summary": "Restore 10-year bright-line on residential investment; remove interest deductibility for residential investors; gains taxed at marginal rates under bright-line (not Labour's flat 28% CGT).",
+        "rateOrThreshold": "10-year bright-line; marginal rates on taxed gain",
+        "status": "announced",
+        "sourceIds": [
+          "S76",
+          "S31"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-tech-withholding",
+        "instrument": "other_levy",
+        "title": "Big tech offshore profit withholding",
+        "summary": "Enforce 5% withholding on profits shifted offshore via misclassified royalties/service fees.",
+        "rateOrThreshold": "5% withholding",
+        "status": "announced",
+        "sourceIds": [
+          "S76"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "national": [
+      {
+        "id": "national-no-new-taxes-2026",
+        "instrument": "other_levy",
+        "title": "No new taxes pledge",
+        "summary": "Campaign promise of no new taxes; ruled out bank tax and accommodation/bed levy. Has not ruled out raising existing taxes/fees.",
+        "rateOrThreshold": "No new tax instruments",
+        "status": "announced",
+        "sourceIds": [
+          "S77",
+          "S32"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-reject-cgt-wealth",
+        "instrument": "capital_gains",
+        "title": "No capital gains tax",
+        "summary": "Commits to no CGT under the no-new-taxes frame and campaigns against Labour's property CGT.",
+        "rateOrThreshold": "No CGT",
+        "status": "announced",
+        "sourceIds": [
+          "S77"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-no-wealth-tax",
+        "instrument": "wealth_tax",
+        "title": "No wealth tax",
+        "summary": "Framed as part of no-new-taxes versus partners' wealth taxes.",
+        "rateOrThreshold": "No wealth tax",
+        "status": "announced",
+        "sourceIds": [
+          "S77"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-kiwisaver-2026",
+        "instrument": "kiwisaver_super",
+        "title": "Compulsory KiwiSaver to 12% by 2032",
+        "summary": "Compulsory for workers from 1 July 2028; default employee/employer rates rise to 6% each by 1 April 2032; Baby Boost $1,500; parental leave and over-65 employer contributions.",
+        "rateOrThreshold": "6%+6% by 2032; compulsory from 1 July 2028",
+        "status": "announced",
+        "sourceIds": [
+          "S79",
+          "S32a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-student-loan-repay",
+        "instrument": "other_levy",
+        "title": "Student loan repayment rate cut to 10%",
+        "summary": "Reduce compulsory repayment from 12% to 10% on income above $24,128 from 1 April 2027 for NZ-based borrowers; tougher overseas recovery.",
+        "rateOrThreshold": "10% above $24,128 from 1 April 2027",
+        "status": "announced",
+        "sourceIds": [
+          "S78"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-bracket-creep-signal",
+        "instrument": "income_tax",
+        "title": "Bracket creep / income-tax adjustment signalled",
+        "summary": "Willis said National will campaign on addressing bracket creep and make an income-tax announcement during the campaign, but not before books return to surplus. No rates published as of 2026-10-11.",
+        "rateOrThreshold": "No rates/thresholds published yet",
+        "status": "reported",
+        "sourceIds": [
+          "S80"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "act": [
+      {
+        "id": "act-kiwisaver-earnings-tax",
+        "instrument": "kiwisaver_super",
+        "title": "No tax on KiwiSaver investment earnings",
+        "summary": "Tax-free qualifying fund earnings; end government KiwiSaver contribution for members with employer contributions; party PDF costings ~$2.4b over four years.",
+        "rateOrThreshold": "0% tax on qualifying KiwiSaver earnings",
+        "status": "announced",
+        "sourceIds": [
+          "S82",
+          "S83",
+          "S35"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-scrap-carbon-tax",
+        "instrument": "carbon_ets",
+        "title": "Scrap Net Zero / cut carbon tax / Carbon Tax Refund",
+        "summary": "Repeal Zero Carbon Act framing; remove ETS auction price floor; return 100% of net auction revenue to households; oppose agricultural emissions tax.",
+        "rateOrThreshold": "Remove minimum auction price; refund net auction revenue",
+        "status": "announced",
+        "sourceIds": [
+          "S81",
+          "S35"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-oppose-cgt-wealth",
+        "instrument": "capital_gains",
+        "title": "Oppose CGT and wealth taxes",
+        "summary": "Economy policy opposes punishing savers; framed against CGT/wealth taxes and compulsory KiwiSaver-plus-tax packages.",
+        "rateOrThreshold": "n/a — opposition stance",
+        "status": "announced",
+        "sourceIds": [
+          "S35",
+          "S83"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-income-unknown-2026",
+        "instrument": "income_tax",
+        "title": "No fresh 2026 costed income-tax table found",
+        "summary": "Older Alternative Budget bracket ideas exist in legacy materials; no new 2026 bracket PDF located on act.org.nz in this pass.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S35"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "nz-first": [
+      {
+        "id": "nzf-sme-company-tax",
+        "instrument": "company_tax",
+        "title": "20% company tax for SMEs under $30m turnover",
+        "summary": "Cut company tax from 28% to 20% for companies with turnover under $30 million; party estimates ~$1b initial annual fiscal cost.",
+        "rateOrThreshold": "20% if turnover under $30m",
+        "status": "announced",
+        "sourceIds": [
+          "S49",
+          "S36"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-paris-ets",
+        "instrument": "carbon_ets",
+        "title": "Withdraw from Paris Accord",
+        "summary": "Announced policy to withdraw from the Paris Accord and resist emissions pricing without trading-partner parity (separate from company-tax announcement).",
+        "rateOrThreshold": "Exit Paris; condition emissions pricing on peers",
+        "status": "announced",
+        "sourceIds": [
+          "S48",
+          "S19g"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-income-tax-unknown",
+        "instrument": "income_tax",
+        "title": "No 2026 PAYE restructure on policy hub",
+        "summary": "Policy index emphasises SME company tax; no PAYE bands on nzfirst.nz pages checked this pass.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S36"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-cgt-unknown",
+        "instrument": "capital_gains",
+        "title": "No CGT proposal found",
+        "summary": "No capital gains tax proposal on the 2026 policy hub pages checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S36"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-wealth-unknown",
+        "instrument": "wealth_tax",
+        "title": "No wealth tax proposal found",
+        "summary": "No wealth tax proposal on the 2026 policy hub pages checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S36"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "te-pati-maori": [
+      {
+        "id": "tpm-income-tax-bands",
+        "instrument": "income_tax",
+        "title": "Kiwi Tax Plan income-tax scale",
+        "summary": "Zero tax on first $30,000; progressive bands to 48% above $300,001; party says most people pay less income tax.",
+        "rateOrThreshold": "0% to $30k; 15%/33%/39%/42%; 48% above $300,001",
+        "status": "announced",
+        "sourceIds": [
+          "S53",
+          "S50"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-wealth-tax",
+        "instrument": "wealth_tax",
+        "title": "Tiered net wealth tax above $2m",
+        "summary": "Progressive annual tax on net wealth above $2m per person.",
+        "rateOrThreshold": "0% to $2m; 1.5% / 2% / 2.5% above bands",
+        "status": "announced",
+        "sourceIds": [
+          "S53",
+          "S50",
+          "S37"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-stamp-duty",
+        "instrument": "other_levy",
+        "title": "5% stamp duty on residential sales",
+        "summary": "5% on residential sales; first-home buyers exempt for homes under $1m (buyer-side transaction tax, distinct from Labour CGT).",
+        "rateOrThreshold": "5%; FHB exemption under $1m",
+        "status": "announced",
+        "sourceIds": [
+          "S50",
+          "S53"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-land-banking",
+        "instrument": "land_tax",
+        "title": "33% land-banking tax + 2% vacant house tax",
+        "summary": "Kiwi Tax Plan: 33% land-banking tax and 2% annual vacant house tax.",
+        "rateOrThreshold": "33% land-banking; 2% vacant house",
+        "status": "announced",
+        "sourceIds": [
+          "S53"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-company-tax",
+        "instrument": "company_tax",
+        "title": "Company tax to 33%",
+        "summary": "Return headline company rate from 28% to 33%.",
+        "rateOrThreshold": "33%",
+        "status": "announced",
+        "sourceIds": [
+          "S53",
+          "S51"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-kai-credit",
+        "instrument": "gst",
+        "title": "Kai credit / No GST on kai framing",
+        "summary": "Targeted credit for earners at or under $60,000 framed as equivalent to weeks of kai; separate members' bill seeks GST removal from food.",
+        "rateOrThreshold": "Credit for earners <= $60k; GST-off-food bill separate",
+        "status": "announced",
+        "sourceIds": [
+          "S53",
+          "S84"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-profit-transfer",
+        "instrument": "other_levy",
+        "title": "5% international profit transfer tax",
+        "summary": "5% on value of profits transferred offshore.",
+        "rateOrThreshold": "5%",
+        "status": "announced",
+        "sourceIds": [
+          "S53"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "opportunity": [
+      {
+        "id": "opp-income-scale",
+        "instrument": "income_tax",
+        "title": "Tax Reset income scale + Citizen's Income",
+        "summary": "Three personal brackets plus universal Citizen's Income for adults 18+; replaces most main benefits with top-ups (Tax Reset PDF).",
+        "rateOrThreshold": "28% to $50k; 34% $50k-$200k; 39% above $200k; CI about $19,400/yr",
+        "status": "announced",
+        "sourceIds": [
+          "S54",
+          "S33"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "opp-lvt",
+        "instrument": "land_tax",
+        "title": "National land value tax",
+        "summary": "Annual tax on unimproved land value to fund Citizen's Income; exemptions/deferrals for some public/Maori/social uses, retirees, farmers. Transition starts lower on urban land.",
+        "rateOrThreshold": "1.75% urban; 0.5% rural (transition from 0.5% urban)",
+        "status": "announced",
+        "sourceIds": [
+          "S54",
+          "S33",
+          "S33a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "opp-kiwisaver-2",
+        "instrument": "kiwisaver_super",
+        "title": "KiwiSaver 2.0 compulsory to 12%",
+        "summary": "Compulsory contributions rising to 6% employee + 6% employer; contributions and fund income progressively tax-exempt; NZ Super replaced by CI + top-up with no cut vs current Super.",
+        "rateOrThreshold": "12% combined after glidepath",
+        "status": "announced",
+        "sourceIds": [
+          "S54",
+          "S33"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "opp-ets",
+        "instrument": "carbon_ets",
+        "title": "Strengthen ETS; ring-fence auction revenue",
+        "summary": "Restore credible rising ETS price path; direct Crown ETS auction revenue to Industry Energy Resilience Fund.",
+        "rateOrThreshold": "Revenue ring-fencing (no new ETS price stated)",
+        "status": "announced",
+        "sourceIds": [
+          "S69"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "opp-no-cgt",
+        "instrument": "capital_gains",
+        "title": "No CGT in Tax Reset (LVT preferred)",
+        "summary": "Tax Reset does not propose a capital gains tax; party favours land value tax plus universal income instead.",
+        "rateOrThreshold": "n/a — LVT preferred over CGT",
+        "status": "announced",
+        "sourceIds": [
+          "S54"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "alliance": [
+      {
+        "id": "alliance-tax-free-20k",
+        "instrument": "income_tax",
+        "title": "First $20,000 tax-free + rebalanced scale",
+        "summary": "Costed plan: tax-free first $20k; progressive rates up to a 47% top bracket; lower/middle earners pay less.",
+        "rateOrThreshold": "0% to $20k; then 17.5%/30%/34%/39%/47% bands (see costings PDF)",
+        "status": "announced",
+        "sourceIds": [
+          "S56",
+          "S57",
+          "S55"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-wealth-tax",
+        "instrument": "wealth_tax",
+        "title": "2.5% wealth tax above $2m + trust measure",
+        "summary": "Annual tax on individual net wealth above $2m (~$4m couple); companion trust tax closes avoidance.",
+        "rateOrThreshold": "2.5% above $2m individual; trust tax ~1.5% (costings)",
+        "status": "announced",
+        "sourceIds": [
+          "S56",
+          "S57"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-cgt",
+        "instrument": "capital_gains",
+        "title": "33% CGT on realised gains (family home exempt)",
+        "summary": "Broad CGT on investment property, shares, business assets; family home excluded; applies to gains after commencement.",
+        "rateOrThreshold": "33% on realised gains",
+        "status": "announced",
+        "sourceIds": [
+          "S56",
+          "S57"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-company-tax",
+        "instrument": "company_tax",
+        "title": "Company tax to 30%",
+        "summary": "Increase company tax from 28% to 30% with behavioural adjustment in costings.",
+        "rateOrThreshold": "30%",
+        "status": "announced",
+        "sourceIds": [
+          "S56",
+          "S57"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-ftt",
+        "instrument": "other_levy",
+        "title": "0.1% financial transactions levy",
+        "summary": "Levy on equity and onshore FX turnover; wages, bills, KiwiSaver contributions exempt.",
+        "rateOrThreshold": "0.1%",
+        "status": "announced",
+        "sourceIds": [
+          "S56",
+          "S57"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-carbon-tax",
+        "instrument": "carbon_ets",
+        "title": "Replace ETS with carbon tax",
+        "summary": "Scrap ETS for a direct carbon tax; revenue to renewables/PT/efficiency; protect low-income households. Rate not specified in environment PDF.",
+        "rateOrThreshold": "Carbon tax rate not specified in PDF",
+        "status": "announced",
+        "sourceIds": [
+          "S58"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alliance-kiwisaver-endowment",
+        "instrument": "kiwisaver_super",
+        "title": "$10,000 KiwiSaver endowment; Super at 65",
+        "summary": "Keep NZ Super at 65; $10,000 automatic endowment to new KiwiSaver accounts; couple rate lift toward 72.5% of net average wage cap.",
+        "rateOrThreshold": "$10,000 endowment",
+        "status": "announced",
+        "sourceIds": [
+          "S34"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "vision": [
+      {
+        "id": "vision-tax-free-25k",
+        "instrument": "income_tax",
+        "title": "First $25,000 tax-free",
+        "summary": "First $25,000 of personal income tax-free; also abolish income tax on superannuation, student loans, and welfare benefits.",
+        "rateOrThreshold": "$25,000 threshold; Super/benefits/student loans tax-free",
+        "status": "announced",
+        "sourceIds": [
+          "S38",
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "vision-foreign-firm-tax",
+        "instrument": "company_tax",
+        "title": "Higher tax on non-compliant foreign firms",
+        "summary": "Higher tax rate on foreign traders/businesses failing a local employment baseline (rate not specified).",
+        "rateOrThreshold": "Higher rate if local employment baseline unmet (rate n/a)",
+        "status": "announced",
+        "sourceIds": [
+          "S38"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "vision-paris",
+        "instrument": "carbon_ets",
+        "title": "Leave Paris Accord",
+        "summary": "Leave Paris Accord as part of sovereignty / climate regulation rollback.",
+        "rateOrThreshold": "Exit Paris",
+        "status": "announced",
+        "sourceIds": [
+          "S38"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "vision-cgt-unknown",
+        "instrument": "capital_gains",
+        "title": "No CGT proposal found",
+        "summary": "No capital gains tax proposal on Vision policies page checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S38"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "nz-loyal": [
+      {
+        "id": "nzloyal-ftt",
+        "instrument": "other_levy",
+        "title": "1% financial transaction tax replacing other taxes",
+        "summary": "1% on electronic payments, cash withdrawals, online transactions, securities trades; framed as replacing income tax, GST, company tax and eliminating Inland Revenue.",
+        "rateOrThreshold": "1% FTT",
+        "status": "announced",
+        "sourceIds": [
+          "S61",
+          "S62",
+          "S39"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzloyal-abolish-income",
+        "instrument": "income_tax",
+        "title": "Abolish income tax (replaced by FTT)",
+        "summary": "Conventional income tax eliminated under the 1% transaction tax model.",
+        "rateOrThreshold": "0% (replaced by FTT)",
+        "status": "announced",
+        "sourceIds": [
+          "S61"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzloyal-abolish-gst",
+        "instrument": "gst",
+        "title": "Abolish GST (replaced by FTT)",
+        "summary": "GST eliminated under the 1% transaction tax model.",
+        "rateOrThreshold": "0% (replaced by FTT)",
+        "status": "announced",
+        "sourceIds": [
+          "S61"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzloyal-abolish-company",
+        "instrument": "company_tax",
+        "title": "Abolish company tax (replaced by FTT)",
+        "summary": "Company tax eliminated under the same model.",
+        "rateOrThreshold": "0% (replaced by FTT)",
+        "status": "announced",
+        "sourceIds": [
+          "S61"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "conservative": [
+      {
+        "id": "cons-lower-taxes",
+        "instrument": "income_tax",
+        "title": "Lower personal tax (direction)",
+        "summary": "Press for lower individual rates competitive with Australia; no numeric schedule published on economy page.",
+        "rateOrThreshold": "Direction only — no full scale published",
+        "status": "announced",
+        "sourceIds": [
+          "S59"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "cons-gst-12-5",
+        "instrument": "gst",
+        "title": "Lower GST to 12.5%",
+        "summary": "Favours reducing GST from 15% to 12.5%.",
+        "rateOrThreshold": "12.5%",
+        "status": "announced",
+        "sourceIds": [
+          "S59"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "cons-company-align",
+        "instrument": "company_tax",
+        "title": "Align company tax with top personal rate",
+        "summary": "Corporation tax aligned with top income tax rate (top rate not specified on page).",
+        "rateOrThreshold": "Aligned to top personal rate (rate n/a)",
+        "status": "announced",
+        "sourceIds": [
+          "S59"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "cons-paris-climate-taxes",
+        "instrument": "carbon_ets",
+        "title": "Leave Paris; scrap climate energy taxes",
+        "summary": "Leave Paris Agreement; scrap fossil-fuel taxes/restrictions based on climate ideology framing.",
+        "rateOrThreshold": "Repeal climate taxes; exit Paris",
+        "status": "announced",
+        "sourceIds": [
+          "S41"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "cons-super-tax-free",
+        "instrument": "kiwisaver_super",
+        "title": "NZ Super not taxable",
+        "summary": "Remove NZ Super from taxable income so working superannuitants are not taxed on Super.",
+        "rateOrThreshold": "NZ Super tax-free",
+        "status": "announced",
+        "sourceIds": [
+          "S60"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "te-tai-tokerau": [
+      {
+        "id": "ttt-whanau-allowance",
+        "instrument": "other_levy",
+        "title": "Universal Whanau Allowance + MSD debt amnesty",
+        "summary": "Non-taxable allowance replacing punitive MSD system; about $2b MSD/IRD debt amnesty.",
+        "rateOrThreshold": "Allowance amount not specified; ~$2b debt amnesty",
+        "status": "announced",
+        "sourceIds": [
+          "S42",
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "ttt-corp-holiday",
+        "instrument": "company_tax",
+        "title": "5-year innovator regional corporate tax holiday",
+        "summary": "Businesses in regional incubators: 100% exemption from regional corporate income tax for first 5 years if local payroll/staff targets met.",
+        "rateOrThreshold": "100% exemption x 5 years (regional)",
+        "status": "announced",
+        "sourceIds": [
+          "S42"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "ttt-local-food-tax-free",
+        "instrument": "other_levy",
+        "title": "Local food trade free of state transaction taxes",
+        "summary": "Hyper-local barter/sale free of state transaction taxes (Te Tauhokohoko).",
+        "rateOrThreshold": "n/a — exemption for local food trade",
+        "status": "announced",
+        "sourceIds": [
+          "S42"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "ttt-income-unknown",
+        "instrument": "income_tax",
+        "title": "No national income-tax scale",
+        "summary": "No national personal income-tax schedule on our-policies page.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S42"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "animal-justice": [
+      {
+        "id": "ajp-gst-plant-foods",
+        "instrument": "gst",
+        "title": "GST off plant foods and veterinary services",
+        "summary": "Zero-rate GST on fruit, vegetables, legumes, nuts; remove GST on all veterinary services.",
+        "rateOrThreshold": "0% on listed plant foods and vet services",
+        "status": "announced",
+        "sourceIds": [
+          "S43",
+          "S63"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "ajp-ets-split",
+        "instrument": "carbon_ets",
+        "title": "Split ETS + biogenic scheme + pollution tax",
+        "summary": "Fossil ETS separate from biogenic cap-and-trade; pollution tax on pesticides/fertilisers escalating over time; revenue to farm transition fund.",
+        "rateOrThreshold": "Pollution tax rate not specified",
+        "status": "announced",
+        "sourceIds": [
+          "S63"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "ajp-income-unknown",
+        "instrument": "income_tax",
+        "title": "No income-tax scale published",
+        "summary": "No personal income-tax schedule on policy summary/transition materials checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S43"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "alcp": [
+      {
+        "id": "alcp-cannabis-revenue",
+        "instrument": "other_levy",
+        "title": "Cannabis/hemp taxation (rate unspecified)",
+        "summary": "Regulated R18 commerce expected to generate taxation revenue and redirect prohibition spend to health/education; no rate or model on policy page.",
+        "rateOrThreshold": "Rate not published",
+        "status": "announced",
+        "sourceIds": [
+          "S66",
+          "S44"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alcp-income-unknown",
+        "instrument": "income_tax",
+        "title": "No income-tax schedule",
+        "summary": "No income-tax schedule on ALCP policy page.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S66"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "alcp-gst-unknown",
+        "instrument": "gst",
+        "title": "No GST proposal",
+        "summary": "No GST proposal on ALCP policy page.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S66"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "womens-rights": [
+      {
+        "id": "wrp-wff",
+        "instrument": "income_tax",
+        "title": "Working for Families / tax credit reform",
+        "summary": "Supports folding In Work Tax Credit into Family Tax Credit; index WFF to wages; lower abatement rates — not a full income-tax scale.",
+        "rateOrThreshold": "Abatement/indexation changes (no brackets)",
+        "status": "announced",
+        "sourceIds": [
+          "S67",
+          "S45"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "wrp-kiwisaver-carers",
+        "instrument": "kiwisaver_super",
+        "title": "KiwiSaver equity for carers and women",
+        "summary": "State contributions to carers' KiwiSaver; employer KiwiSaver during maternity leave; pay equity framing.",
+        "rateOrThreshold": "Contribution/support measures (not a contribution % schedule)",
+        "status": "announced",
+        "sourceIds": [
+          "S68"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "wrp-living-incomes",
+        "instrument": "other_levy",
+        "title": "Living wages and benefits",
+        "summary": "Increase minimum wages and benefits to living incomes; pay equity; affordable childcare.",
+        "rateOrThreshold": "n/a — transfers/wages focus",
+        "status": "announced",
+        "sourceIds": [
+          "S26a",
+          "S45"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "outdoors-freedom": [
+      {
+        "id": "nzofp-paris",
+        "instrument": "carbon_ets",
+        "title": "Exit Paris; avoid offshore carbon credit bills",
+        "summary": "Oppose Paris Accord; cites multi-billion cost of buying international credits; focus on local mitigation not ETS payments offshore.",
+        "rateOrThreshold": "Exit Paris / avoid offshore credit purchases",
+        "status": "announced",
+        "sourceIds": [
+          "S64"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzofp-unhealthy-food-tax",
+        "instrument": "other_levy",
+        "title": "Tax unhealthy food",
+        "summary": "Pae Ora submission: unhealthy foods should be taxed to cover their true costs (rate not specified).",
+        "rateOrThreshold": "Rate not specified",
+        "status": "announced",
+        "sourceIds": [
+          "S65"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzofp-income-unknown",
+        "instrument": "income_tax",
+        "title": "No income-tax schedule found",
+        "summary": "No clear income-tax scale on nzofp.co.nz pages checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S46",
+          "S64"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "free-palestine": [
+      {
+        "id": "fp-tax-search",
+        "instrument": "income_tax",
+        "title": "No domestic tax schedule found",
+        "summary": "Party site focuses on Palestine foreign-policy justice; no domestic tax proposals found on pages checked.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S47",
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "free-palestine-gst-unknown",
+        "instrument": "gst",
+        "title": "No gst proposal found",
+        "summary": "No clear published proposal for this instrument on materials checked as of 2026-10-11.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S47"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "free-palestine-company_tax-unknown",
+        "instrument": "company_tax",
+        "title": "No company tax proposal found",
+        "summary": "No clear published proposal for this instrument on materials checked as of 2026-10-11.",
+        "rateOrThreshold": "n/a",
+        "status": "unknown",
+        "sourceIds": [
+          "S47"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ]
+  }
+}

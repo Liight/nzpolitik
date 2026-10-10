@@ -1,0 +1,59 @@
+/**
+ * @file index.css
+ * @description Global styles and Tailwind layers for nzpolitik
+ * @onboarding
+ * - Theme tokens live in tailwind.config.js
+ * - Body uses Source Sans; display headings use Fraunces
+ * - Dependencies: tailwindcss
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep: #0f1c24;
+  --bg-mid: #152833;
+  --fern: #2a7a58;
+  --sand: #e8efe8;
+  --clay: #c96535;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: clip;
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  color: #0f1c24;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(42, 122, 88, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(201, 101, 53, 0.12), transparent 50%),
+    linear-gradient(180deg, #f3f7f3 0%, #e8efe8 45%, #dfe8e2 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+@layer components {
+  .compare-scroll {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x pan-y;
+    mask-image: linear-gradient(
+      to right,
+      #000 0%,
+      #000 calc(100% - 1.25rem),
+      transparent 100%
+    );
+  }
+
+  @media (min-width: 768px) {
+    .compare-scroll {
+      mask-image: none;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "lastVerified": "2026-10-11",
+  "whyVote": [
+    {
+      "id": "affects-daily-life",
+      "title": "Politics shapes daily life whether you vote or not",
+      "body": "Governments set rules and budgets that affect tax, housing, health care, education, justice, and immigration. Those decisions apply to enrolled citizens and residents whether or not they cast a ballot. Skipping the vote does not pause Parliament or freeze policy.",
+      "sourceIds": ["S02", "S05"]
+    },
+    {
+      "id": "others-decide",
+      "title": "If you do not vote, others still decide who sits",
+      "body": "Seats in Parliament are filled from the votes that are cast. Not voting does not leave your share of power vacant for later — it simply means the people who did vote have a larger say over who forms government and which bills pass.",
+      "sourceIds": ["S05", "S02"]
+    },
+    {
+      "id": "turnout-maths",
+      "title": "Low turnout can make a minority of adults look like a majority of votes",
+      "body": "Imagine 100 enrolled electors and about 30 do not vote (30% non-turnout), so 70 ballots are counted. If a party or bloc wins 51% of those ballots, that is about 36 of the 70 votes cast — a majority of votes cast, but only about 36% of all enrolled electors. Seat allocation under MMP is based on votes cast (subject to threshold rules), not on the full enrolled or adult population. Majority of votes cast is not the same as majority of the population.",
+      "sourceIds": ["S05", "S147"]
+    },
+    {
+      "id": "what-you-can-do",
+      "title": "Practical next steps",
+      "body": "Check you are enrolled, note election and advance-voting dates, and use official vote.nz guidance for how to cast a valid ballot. This site helps you compare parties; it does not tell you who to vote for.",
+      "sourceIds": ["S02", "S01"]
+    }
+  ],
+  "history": [
+    {
+      "year": "1852-1853",
+      "title": "Representative government begins",
+      "summary": "The New Zealand Constitution Act 1852 created an elected House of Representatives. The first general election ran from mid-1853. The franchise was limited mainly to men who met property qualifications — a start of elected representation, not universal adult suffrage.",
+      "sourceIds": ["S148", "S149"]
+    },
+    {
+      "year": "1867",
+      "title": "Maori seats created",
+      "summary": "The Maori Representation Act 1867 established four Maori electorates so Maori men over 21 could vote and stand without the same individual freehold property hurdles that blocked many from general seats. The seats were meant as temporary special representation and later became a lasting feature of the system.",
+      "sourceIds": ["S150", "S151"]
+    },
+    {
+      "year": "1879",
+      "title": "Male franchise widens",
+      "summary": "Late-nineteenth-century reforms removed most remaining property barriers for adult men in general electorates, moving New Zealand toward near-universal male suffrage before women won the vote.",
+      "sourceIds": ["S152"]
+    },
+    {
+      "year": "1893",
+      "title": "Women win the parliamentary vote",
+      "summary": "On 19 September 1893 the Electoral Act gave women — including wahine Maori — the right to vote in parliamentary elections. New Zealand became the first self-governing country to enshrine women's parliamentary suffrage in law. Women could not stand for Parliament until 1919.",
+      "sourceIds": ["S153", "S154"]
+    },
+    {
+      "year": "1853-1993",
+      "title": "First-past-the-post era",
+      "summary": "Almost all general elections used first-past-the-post (FPP): each voter had one vote in an electorate, and the candidate with the most votes won that seat. Party seat shares in Parliament often differed sharply from nationwide vote shares. A short second-ballot experiment ran around 1908-1913 before FPP returned.",
+      "sourceIds": ["S155"]
+    },
+    {
+      "year": "1992-1993",
+      "title": "Voters choose MMP",
+      "summary": "An indicative referendum in 1992 and a binding referendum alongside the 1993 election asked New Zealanders to choose between FPP and mixed-member proportional (MMP). A majority supported MMP (about 54% in the 1993 binding vote), triggering a new electoral law for the next election.",
+      "sourceIds": ["S156", "S157"]
+    },
+    {
+      "year": "1996",
+      "title": "First MMP election",
+      "summary": "Voters cast a party vote and an electorate vote. List seats top up party representation toward proportionality (with threshold rules). The 1996 Parliament was more multiparty and demographically diverse than late-FPP Houses. Today's two-vote MMP system still uses that design — see About for the 5% threshold and electorate seat path.",
+      "sourceIds": ["S158", "S05"]
+    }
+  ],
+  "turnoutExample": {
+    "enrolled": 100,
+    "nonVoters": 30,
+    "blocShareOfVotesCast": 0.51,
+    "explanation": "Illustrative arithmetic only — not a forecast for any election."
+  }
+}

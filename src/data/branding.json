@@ -1,0 +1,176 @@
+{
+  "parties": {
+    "act": {
+      "logoFile": "act.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#FFD100",
+      "secondaryHex": "#000000",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "alliance": {
+      "logoFile": "alliance.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#E31837",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "animal-justice": {
+      "logoFile": "animal-justice.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#2E8B57",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "alcp": {
+      "logoFile": "alcp.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#228B22",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "conservative": {
+      "logoFile": "conservative.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#1B4F72",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "free-palestine": {
+      "logoFile": "free-palestine.png",
+      "logoSource": "none",
+      "primaryHex": "#CE1126",
+      "secondaryHex": "#007A3D",
+      "sourceIds": [
+        "S06",
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "green": {
+      "logoFile": "green.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#00A651",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "labour": {
+      "logoFile": "labour.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#D82A20",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "national": {
+      "logoFile": "national.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#005BBB",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "nz-first": {
+      "logoFile": "nz-first.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#000000",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "nz-loyal": {
+      "logoFile": "nz-loyal.png",
+      "logoSource": "none",
+      "primaryHex": "#0B3D91",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S06",
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "outdoors-freedom": {
+      "logoFile": "outdoors-freedom.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#2E7D32",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "opportunity": {
+      "logoFile": "opportunity.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#6B2D8B",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "te-pati-maori": {
+      "logoFile": "te-pati-maori.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#000000",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "te-tai-tokerau": {
+      "logoFile": "te-tai-tokerau.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#0D47A1",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "vision": {
+      "logoFile": "vision.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#6A1B9A",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "womens-rights": {
+      "logoFile": "womens-rights.png",
+      "logoSource": "electoral_commission",
+      "primaryHex": "#C2185B",
+      "secondaryHex": "#FFFFFF",
+      "sourceIds": [
+        "S129"
+      ],
+      "lastVerified": "2026-10-11"
+    }
+  }
+}

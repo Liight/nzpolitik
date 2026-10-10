@@ -1,0 +1,1004 @@
+{
+  "windows": [
+    {
+      "id": "2005-2008",
+      "label": "2005-2008 Labour-led government"
+    },
+    {
+      "id": "2008-2017",
+      "label": "2008-2017 National-led governments"
+    },
+    {
+      "id": "2017-2020",
+      "label": "2017-2020 Labour-NZ First-Greens"
+    },
+    {
+      "id": "2020-2023",
+      "label": "2020-2023 Labour-led government"
+    },
+    {
+      "id": "2023-2026",
+      "label": "2023-2026 National-ACT-NZ First government"
+    }
+  ],
+  "parties": {
+    "national": [
+      {
+        "id": "national-2023-tax-relief",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Campaign Back Pocket Boost: raise income-tax thresholds and deliver middle-income tax relief.",
+        "outcome": "Budget 2024 raised personal thresholds from 31 July 2024 and expanded related credits, largely matching the campaign package with coalition funding adjustments.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S87",
+          "S88"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2023-three-waters-repeal",
+        "windowId": "2023-2026",
+        "issueId": "housing",
+        "pledge": "Repeal Labour Three Waters / Affordable Water reforms.",
+        "outcome": "Water Services Acts Repeal Act 2024 repealed the entity model in February 2024; Local Water Done Well replacement legislation continued to roll out afterward.",
+        "status": "partial",
+        "role": "governing",
+        "sourceIds": [
+          "S89",
+          "S90"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2023-bright-line",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Reduce the residential bright-line test from 10 years to 2 years.",
+        "outcome": "Legislation reinstated a 2-year bright-line test applying to disposals with a bright-line end date on or after 1 July 2024.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S91",
+          "S92"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2023-foreign-buyers-tax",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Fund part of tax relief via a foreign residential buyers tax while keeping the foreign-buyer ban.",
+        "outcome": "National-NZ First coalition agreement stopped the foreign buyers tax; tax relief was funded through other savings and revenue measures instead.",
+        "status": "blocked_coalition",
+        "role": "governing",
+        "sourceIds": [
+          "S93",
+          "S87"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2023-clean-car-discount",
+        "windowId": "2023-2026",
+        "issueId": "climate_environment",
+        "pledge": "End the Clean Car Discount (feebate) scheme.",
+        "outcome": "Land Transport (Clean Vehicle Discount Scheme Repeal) Amendment Act 2023 repealed the scheme in the government's early agenda.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S94",
+          "S95"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2020-oppose-light-rail",
+        "windowId": "2020-2023",
+        "issueId": "housing",
+        "pledge": "As opposition, oppose Labour Auckland light rail delivery failures and argue the project should not proceed as promised.",
+        "outcome": "Auckland light rail was not built in the 2020-23 term; the competing-bid process stalled and construction never started before the 2023 election.",
+        "status": "partial",
+        "role": "opposition",
+        "sourceIds": [
+          "S96",
+          "S97"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2023-cancel-light-rail",
+        "windowId": "2023-2026",
+        "issueId": "housing",
+        "pledge": "Cancel Auckland Light Rail and reprioritise Auckland transport investment.",
+        "outcome": "Cabinet cancelled the Auckland Light Rail project in December 2023; the delivery company was wound up and no track was built under that project.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S116",
+          "S117"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2008-tax-cuts",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "2008 campaign: deliver National personal income-tax cuts and related threshold changes early in a National-led government.",
+        "outcome": "Taxation (Urgent Measures and Annual Rates) legislation in December 2008 implemented National's income-tax package.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S159",
+          "S160"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2010-gst-tax-switch",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "Budget 2010 tax switch: raise GST to 15% from 1 October 2010 and cut personal income-tax rates, with compensation.",
+        "outcome": "GST rose to 15% and personal tax rates were reduced from 1 October 2010 with compensation adjustments.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S161",
+          "S162"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2008-90-day-trials",
+        "windowId": "2008-2017",
+        "issueId": "social_issues",
+        "pledge": "Introduce 90-day trial periods for new employees as a pre-election employment-relations commitment.",
+        "outcome": "Employment Relations Amendment Act 2008 created statutory 90-day trial provisions from 1 March 2009 for smaller employers.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S163",
+          "S164"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2008-ufb",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "2008 election: invest Crown capital to accelerate ultra-fast broadband fibre rollout for most New Zealanders.",
+        "outcome": "Government finalised the UFB initiative, signed Crown Fibre partner deals, and began physical rollout from 2010.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S165",
+          "S166"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2011-mixed-ownership",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "2011 election: extend mixed ownership — sell up to 49% of selected energy SOEs while keeping majority Crown control.",
+        "outcome": "MOM legislation passed; IPOs proceeded for Mighty River, Meridian and Genesis; Solid Energy never reached IPO (partial programme).",
+        "status": "partial",
+        "role": "governing",
+        "sourceIds": [
+          "S167",
+          "S168"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2017-2020-oppose-cgt",
+        "windowId": "2017-2020",
+        "issueId": "economy_tax",
+        "pledge": "As opposition, oppose a broad capital gains tax and commit that National would not introduce one.",
+        "outcome": "In April 2019 the Labour-led government abandoned CGT for lack of coalition consensus; no comprehensive CGT was enacted that term.",
+        "status": "delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S169",
+          "S170"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "national-2017-2020-oil-gas-ban-reverse",
+        "windowId": "2017-2020",
+        "issueId": "climate_environment",
+        "pledge": "Pledge to reverse Labour's ban on new offshore oil and gas exploration permits if returned in 2020.",
+        "outcome": "National did not win 2020; Crown Minerals (Petroleum) Amendment Act 2018 kept the offshore ban through this window.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S171",
+          "S172"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "labour": [
+      {
+        "id": "labour-2020-39-tax",
+        "windowId": "2020-2023",
+        "issueId": "economy_tax",
+        "pledge": "Introduce a 39% top personal income-tax rate on income over $180,000.",
+        "outcome": "Taxation (Income Tax Rate and Other Amendments) legislation applied the 39% rate from the 2021-22 income year.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S98",
+          "S99"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-no-cgt-wealth",
+        "windowId": "2020-2023",
+        "issueId": "economy_tax",
+        "pledge": "2020 campaign ruled out a capital gains tax and a wealth tax for that term.",
+        "outcome": "No CGT or wealth tax was introduced 2020-23; revenue focus stayed on the 39% rate and other measures.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S100",
+          "S101"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-light-rail",
+        "windowId": "2020-2023",
+        "issueId": "housing",
+        "pledge": "Deliver Auckland light rail (flagship transport/housing-linked promise carried from 2017 into later terms).",
+        "outcome": "No light rail was built; the twin-track process ended without an agreed route or construction start in the term.",
+        "status": "not_delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S96",
+          "S97"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-public-housing",
+        "windowId": "2020-2023",
+        "issueId": "housing",
+        "pledge": "Expand public and transitional housing places via the Public Housing Plan / Kainga Ora build programme.",
+        "outcome": "Thousands of additional public and transitional places were added, but original KiwiBuild-scale private supply targets from earlier years were not met.",
+        "status": "partial",
+        "role": "governing",
+        "sourceIds": [
+          "S102",
+          "S103"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-three-waters",
+        "windowId": "2020-2023",
+        "issueId": "housing",
+        "pledge": "Pass Three Waters / Affordable Water reform legislation.",
+        "outcome": "Reform legislation was enacted in the term; it was later repealed by the 2023-26 government.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S89",
+          "S90"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2023-oppose-treaty-principles",
+        "windowId": "2023-2026",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Oppose ACT Treaty Principles Bill and call for it to be blocked.",
+        "outcome": "Labour opposed the bill; Parliament defeated it at second reading in April 2025 (112-11).",
+        "status": "delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S104",
+          "S126"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-fair-pay-agreements",
+        "windowId": "2020-2023",
+        "issueId": "social_issues",
+        "pledge": "Introduce Fair Pay Agreements for sector-wide bargaining on pay and conditions.",
+        "outcome": "Fair Pay Agreements Act 2022 received royal assent and the system commenced in December 2022 (later repealed by the 2023-26 government).",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S118",
+          "S119"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2020-smokefree",
+        "windowId": "2020-2023",
+        "issueId": "health",
+        "pledge": "Pass smoked-tobacco endgame law including smokefree generation, retail reduction and denicotinisation.",
+        "outcome": "Smokefree Environments and Regulated Products (Smoked Tobacco) Amendment Act 2022 passed; the three core measures were later repealed in 2024.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S120",
+          "S121"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2005-kiwisaver",
+        "windowId": "2005-2008",
+        "issueId": "economy_tax",
+        "pledge": "Budget 2005 / campaign: introduce KiwiSaver workplace retirement savings with government kick-start from 1 July 2007.",
+        "outcome": "KiwiSaver commenced 1 July 2007 with kick-start and matching support as delivered family-policy package.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S181",
+          "S182"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2005-interest-free-loans",
+        "windowId": "2005-2008",
+        "issueId": "education",
+        "pledge": "2005 election pledge: no further interest on student loans for eligible NZ-resident borrowers from 1 April 2006.",
+        "outcome": "Student Loan Scheme Amendment Act 2005 implemented interest write-offs for eligible resident borrowers from 1 April 2006.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S183",
+          "S184"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2005-20-hours-ece",
+        "windowId": "2005-2008",
+        "issueId": "education",
+        "pledge": "Fund 20 hours free early childhood education per week for three- and four-year-olds from July 2007.",
+        "outcome": "20 Hours Free ECE took effect 1 July 2007 with large service and child uptake at launch.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S185",
+          "S181"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2008-ets",
+        "windowId": "2005-2008",
+        "issueId": "climate_environment",
+        "pledge": "Establish a national emissions trading scheme to price greenhouse gas emissions.",
+        "outcome": "Climate Change Response (Emissions Trading) Amendment Act 2008 received royal assent 25 September 2008.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S186",
+          "S187"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2008-2017-stop-asset-sales",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "As opposition, campaign to stop National's partial privatisation of state-owned energy companies.",
+        "outcome": "Partial sales of Mighty River, Meridian and Genesis proceeded; a 2013 citizens-initiated referendum opposed sales but did not stop them.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S188",
+          "S189"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2017-fees-free",
+        "windowId": "2017-2020",
+        "issueId": "education",
+        "pledge": "2017 campaign: first year of provider-based tertiary study fees-free for eligible new students from 2018.",
+        "outcome": "Fees Free began 1 January 2018; early Beehive reporting showed tens of thousands of learners on fees-free.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S190",
+          "S191"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2017-families-package",
+        "windowId": "2017-2020",
+        "issueId": "social_issues",
+        "pledge": "2017 Families Package: Best Start, Winter Energy Payment, Working for Families and accommodation changes.",
+        "outcome": "Families Package legislation passed; Best Start and related measures commenced mid-2018.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S192",
+          "S193"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2017-foreign-buyer-ban",
+        "windowId": "2017-2020",
+        "issueId": "housing",
+        "pledge": "Ban non-resident foreign buyers from purchasing existing NZ homes; strengthen Overseas Investment Act.",
+        "outcome": "Overseas Investment Amendment Act 2018 restricted overseas purchases of existing residential land from October 2018.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S194",
+          "S195"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2017-kiwibuild",
+        "windowId": "2017-2020",
+        "issueId": "housing",
+        "pledge": "KiwiBuild: 100,000 affordable homes for first-home buyers within ten years.",
+        "outcome": "By late 2019 the 100,000 target was reset/abandoned; completed KiwiBuild homes were far below interim targets.",
+        "status": "not_delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S196",
+          "S197"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "labour-2017-offshore-oil-ban",
+        "windowId": "2017-2020",
+        "issueId": "climate_environment",
+        "pledge": "End new offshore oil and gas exploration permits as part of a low-carbon transition.",
+        "outcome": "April 2018: no further offshore petroleum exploration permits; Block Offer limited to onshore Taranaki; existing permits honoured.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S172",
+          "S198"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "green": [
+      {
+        "id": "green-2020-clean-car",
+        "windowId": "2020-2023",
+        "issueId": "climate_environment",
+        "pledge": "As confidence-and-supply partner, advance Zero Carbon Act goals including clean vehicle uptake measures.",
+        "outcome": "Clean Car Discount / clean vehicle settings were introduced in 2021-22 under the Labour-Greens support arrangement; later repealed after 2023.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S106",
+          "S94"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2020-ag-emissions",
+        "windowId": "2020-2023",
+        "issueId": "climate_environment",
+        "pledge": "Price agricultural greenhouse gas emissions (farm-level system targeted by mid-2020s via He Waka Eke Noa pathway).",
+        "outcome": "Policy design and Cabinet work progressed, but farm-level pricing was not operating by the 2023 election and was later paused/reversed by the new government.",
+        "status": "partial",
+        "role": "support",
+        "sourceIds": [
+          "S107",
+          "S108"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2020-wealth-tax",
+        "windowId": "2020-2023",
+        "issueId": "economy_tax",
+        "pledge": "Campaign for a wealth tax; seek progress while supporting a Labour government.",
+        "outcome": "Labour ruled out a wealth tax for the term; no wealth tax was enacted.",
+        "status": "blocked_coalition",
+        "role": "support",
+        "sourceIds": [
+          "S100",
+          "S101"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2023-oppose-treaty-principles",
+        "windowId": "2023-2026",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Oppose the Treaty Principles Bill and mobilise against it.",
+        "outcome": "Greens opposed the bill alongside Labour and Te Pati Maori; it was defeated at second reading in April 2025.",
+        "status": "delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S104",
+          "S126"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2023-oppose-smokefree-repeal",
+        "windowId": "2023-2026",
+        "issueId": "health",
+        "pledge": "Oppose repeal of the 2022 smoked-tobacco endgame measures.",
+        "outcome": "Greens voted against repeal; the Smokefree Environments and Regulated Products Amendment Act 2024 still removed the generation ban, retail cut and denicotinisation settings.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S120",
+          "S121"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2017-zero-carbon",
+        "windowId": "2017-2020",
+        "issueId": "climate_environment",
+        "pledge": "Confidence-and-supply: introduce a Zero Carbon Act and independent Climate Commission.",
+        "outcome": "Climate Change Response (Zero Carbon) Amendment Act received royal assent in November 2019, establishing the Climate Change Commission.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S204",
+          "S205"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2017-welfare-overhaul",
+        "windowId": "2017-2020",
+        "issueId": "social_issues",
+        "pledge": "C&S agreement: overhaul welfare — improve access, review sanctions, and lift incomes.",
+        "outcome": "Welfare Expert Advisory Group reported in 2019; some benefit and sanction changes followed, but a full overhaul was not completed by 2020.",
+        "status": "partial",
+        "role": "support",
+        "sourceIds": [
+          "S206",
+          "S207"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2017-cannabis-referendum",
+        "windowId": "2017-2020",
+        "issueId": "social_issues",
+        "pledge": "C&S agreement: hold a referendum on legalising personal-use cannabis by the 2020 election.",
+        "outcome": "2020 referendum held; official result was No — Cannabis Legalisation and Control Bill not enacted.",
+        "status": "not_delivered",
+        "role": "support",
+        "sourceIds": [
+          "S208",
+          "S209"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "green-2008-2017-asset-sales-referendum",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "As opposition, support a citizens-initiated referendum against partial asset sales.",
+        "outcome": "2013 referendum returned a large No majority, but the National government continued remaining sales.",
+        "status": "partial",
+        "role": "opposition",
+        "sourceIds": [
+          "S189",
+          "S210"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "act": [
+      {
+        "id": "act-2023-treaty-principles",
+        "windowId": "2023-2026",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Introduce a Treaty Principles Bill based on ACT policy (coalition: support to select committee).",
+        "outcome": "Bill was introduced and supported to select committee; National and NZ First opposed at second reading and it was defeated 112-11 in April 2025.",
+        "status": "partial",
+        "role": "governing",
+        "sourceIds": [
+          "S109",
+          "S126"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2023-three-strikes",
+        "windowId": "2023-2026",
+        "issueId": "justice_crime",
+        "pledge": "Restore Three Strikes sentencing legislation (National-ACT coalition commitment).",
+        "outcome": "Sentencing (Reinstating Three Strikes) Amendment Act 2024 passed; regime in force from 17 June 2025.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S109",
+          "S110"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2023-flatten-tax",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Flatten / simplify the personal income-tax scale.",
+        "outcome": "Finance Minister engaged ACT on flattening for Budget 2024 but did not implement it; National-shaped threshold relief proceeded instead.",
+        "status": "blocked_coalition",
+        "role": "governing",
+        "sourceIds": [
+          "S87",
+          "S88"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2023-clean-car",
+        "windowId": "2023-2026",
+        "issueId": "climate_environment",
+        "pledge": "Repeal the Clean Car Discount (National-ACT coalition item).",
+        "outcome": "Scheme repealed by Land Transport (Clean Vehicle Discount Scheme Repeal) Amendment Act 2023.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S94",
+          "S95"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2020-oppose-three-waters",
+        "windowId": "2020-2023",
+        "issueId": "housing",
+        "pledge": "As opposition, oppose Three Waters co-governance and centralisation reforms.",
+        "outcome": "Three Waters / Affordable Water legislation still passed under Labour; ACT's opposition did not stop enactment in that term.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S89",
+          "S90"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2023-charter-schools",
+        "windowId": "2023-2026",
+        "issueId": "education",
+        "pledge": "Reintroduce charter schools / kura hourua (National-ACT coalition commitment).",
+        "outcome": "Education and Training Amendment Act 2024 restored a statutory charter-school framework.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S123",
+          "S122"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2023-smokefree-repeal",
+        "windowId": "2023-2026",
+        "issueId": "health",
+        "pledge": "Repeal 2022 smoked-tobacco endgame measures (coalition commitment).",
+        "outcome": "Smokefree Environments and Regulated Products Amendment Act 2024 removed retail reduction, denicotinisation and generation-ban provisions.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S109",
+          "S121"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2017-2020-oppose-gun-laws",
+        "windowId": "2017-2020",
+        "issueId": "justice_crime",
+        "pledge": "As opposition after the March 2019 Christchurch attacks, ACT argued for a more carefully scoped firearms response and against rushed reform without adequate select-committee process.",
+        "outcome": "Arms (Prohibited Firearms, Magazines, and Parts) Amendment Act 2019 passed under urgency with broad support; ACT's preferred slower pathway was not adopted.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S173",
+          "S174"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2008-three-strikes",
+        "windowId": "2008-2017",
+        "issueId": "justice_crime",
+        "pledge": "2008 confidence-and-supply: enact ACT's three-strikes regime for repeat serious offenders.",
+        "outcome": "National and ACT agreed a three-strikes model in the Sentencing and Parole Reform Act 2010.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S175",
+          "S176"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2011-charter-schools",
+        "windowId": "2008-2017",
+        "issueId": "education",
+        "pledge": "2011 confidence-and-supply: trial partnership/charter schools (kura hourua).",
+        "outcome": "Education Amendment Act 2013 inserted partnership schools provisions; first schools opened in subsequent years.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S177",
+          "S178"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "act-2008-spending-reviews",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "2008 National-ACT agreement: establish taskforces to review base government spending sector by sector.",
+        "outcome": "Government launched fundamental spending reviews on policy advice tied to the National-ACT agreement.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S179",
+          "S180"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "nz-first": [
+      {
+        "id": "nzf-2023-block-foreign-buyers-tax",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Coalition demand: progress National tax relief without a foreign residential buyers tax / without repealing the foreign-buyer ban for that purpose.",
+        "outcome": "National-NZ First agreement excluded the foreign buyers tax; Budget 2024 funded relief via other measures.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S93",
+          "S87"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-2023-smokefree-repeal",
+        "windowId": "2023-2026",
+        "issueId": "health",
+        "pledge": "Repeal 2022 smokefree smoked-tobacco amendments (denicotisation, retail cuts, generation ban) before March 2024.",
+        "outcome": "Coalition progressed repeal of the Smokefree Environments smoked-tobacco amendments; associated Cabinet papers document delivery of the agreement.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S93",
+          "S111"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-2023-fees-free",
+        "windowId": "2023-2026",
+        "issueId": "education",
+        "pledge": "Stop first-year Fees Free and replace with final-year Fees Free (no change before 2025).",
+        "outcome": "Coalition agreements locked in switching Fees Free to the final year with the delayed start; implementation followed the agreement timetable.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S93",
+          "S112"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-2023-treaty-principles-limit",
+        "windowId": "2023-2026",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Support ACT Treaty Principles Bill only to select committee, not as enduring NZ First policy.",
+        "outcome": "NZ First supported the bill to select committee then opposed progression; bill failed second reading in April 2025.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S109",
+          "S105"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nzf-2023-disestablish-mha",
+        "windowId": "2023-2026",
+        "issueId": "health",
+        "pledge": "Support disestablishing Te Aka Whai Ora (Maori Health Authority) as part of the coalition health reset.",
+        "outcome": "Pae Ora (Disestablishment of Maori Health Authority) Amendment Act 2024 disestablished the authority (effective 30 June 2024).",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S124",
+          "S114"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nz-first-2017-pgf",
+        "windowId": "2017-2020",
+        "issueId": "economy_tax",
+        "pledge": "Coalition agreement: Regional Development / Provincial Growth Fund of about $1 billion a year.",
+        "outcome": "Cabinet established the PGF in late 2017; fund opened for applications in 2018 with multi-year funding committed.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S199",
+          "S200"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nz-first-2017-foreign-buyers",
+        "windowId": "2017-2020",
+        "issueId": "immigration",
+        "pledge": "Coalition agreement: stop non-resident foreigners buying existing houses; strengthen Overseas Investment Act.",
+        "outcome": "Overseas Investment Amendment Act 2018 introduced residential land screening from October 2018.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S194",
+          "S195"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nz-first-2017-minimum-wage-20",
+        "windowId": "2017-2020",
+        "issueId": "economy_tax",
+        "pledge": "Coalition agreement: progressively raise the adult minimum wage toward $20 per hour.",
+        "outcome": "Adult minimum wage reached $20.00/hour from 1 April 2021 via Minimum Wage Order.",
+        "status": "delivered",
+        "role": "governing",
+        "sourceIds": [
+          "S201",
+          "S202"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "nz-first-2008-2017-buy-back-assets",
+        "windowId": "2008-2017",
+        "issueId": "economy_tax",
+        "pledge": "As opposition, commit to buy back shares in privatised SOEs at no more than the original sale price.",
+        "outcome": "Partial SOE sales completed under National; NZ First was not in government and did not buy back sold stakes before 2017.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S203",
+          "S189"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ],
+    "te-pati-maori": [
+      {
+        "id": "tpm-2020-maori-health-authority",
+        "windowId": "2020-2023",
+        "issueId": "health",
+        "pledge": "Champion a Maori Health Authority / stronger Maori health leadership structures.",
+        "outcome": "Te Aka Whai Ora (Maori Health Authority) was established under Pae Ora reforms during the Labour-led term.",
+        "status": "delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S113",
+          "S114"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2023-oppose-mha-disestablish",
+        "windowId": "2023-2026",
+        "issueId": "health",
+        "pledge": "Oppose disestablishment of the Maori Health Authority.",
+        "outcome": "Pae Ora (Disestablishment of Maori Health Authority) Amendment Act 2024 disestablished Te Aka Whai Ora despite opposition protests.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S114",
+          "S115"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2023-oppose-treaty-principles",
+        "windowId": "2023-2026",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Oppose the Treaty Principles Bill and support Hiiikoi mo te Tiriti mobilisation.",
+        "outcome": "Te Pati Maori opposed the bill; Parliament defeated it at second reading in April 2025.",
+        "status": "delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S104",
+          "S126"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2023-gst-food",
+        "windowId": "2023-2026",
+        "issueId": "economy_tax",
+        "pledge": "Remove GST from food (members bill / campaign priority).",
+        "outcome": "GST remains on food nationally; Te Pati Maori continued advocacy and members-bill pressure without government enactment.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S84",
+          "S50"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2020-roll-switch-bill",
+        "windowId": "2020-2023",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Pass a members bill letting Maori electors switch freely between Maori and general rolls.",
+        "outcome": "Electoral (Right to Switch Rolls Freely) Amendment Bill was defeated at first reading in November 2022.",
+        "status": "not_delivered",
+        "role": "opposition",
+        "sourceIds": [
+          "S125",
+          "S128"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2008-whanau-ora",
+        "windowId": "2008-2017",
+        "issueId": "health",
+        "pledge": "As National-led support partner (Maori Party), advance Whanau Ora / whanau-centred services (2008 confidence-and-supply).",
+        "outcome": "Budget 2010 funded Whanau Ora; programme launched with a responsible minister; later commissioning agencies established (continuity caveat: Maori Party lineage to Te Pati Maori).",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S211",
+          "S212"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2008-foreshore-repeal",
+        "windowId": "2008-2017",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Review and replace the Foreshore and Seabed Act 2004 while protecting public access (2008 C&S).",
+        "outcome": "Marine and Coastal Area (Takutai Moana) Act 2011 repealed the 2004 Act and restored a customary marine title pathway.",
+        "status": "delivered",
+        "role": "support",
+        "sourceIds": [
+          "S213",
+          "S214"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      {
+        "id": "tpm-2011-constitutional-panel",
+        "windowId": "2008-2017",
+        "issueId": "te_tiriti_maori",
+        "pledge": "Continue constitutional review / advisory panel work arising from Maori Party–National relationship accords.",
+        "outcome": "Constitutional Advisory Panel reported in 2013 recommending ongoing conversation; no major entrenchment reforms enacted.",
+        "status": "partial",
+        "role": "support",
+        "sourceIds": [
+          "S215",
+          "S211"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    ]
+  }
+}

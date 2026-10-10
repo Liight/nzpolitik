@@ -1,0 +1,1622 @@
+{
+  "S01": {
+    "id": "S01",
+    "url": "https://elections.nz/media-and-news/2026/key-dates-for-2026-general-election",
+    "accessed": "2026-10-11",
+    "usedFor": "Election key dates"
+  },
+  "S02": {
+    "id": "S02",
+    "url": "https://vote.nz/2026-general-election/about/overview",
+    "accessed": "2026-10-11",
+    "usedFor": "Election overview / two votes"
+  },
+  "S03": {
+    "id": "S03",
+    "url": "https://elections.nz/guidance-and-rules/candidate-hub/becoming-a-candidate/standing-as-a-candidate-for-the-2026-general-election",
+    "accessed": "2026-10-11",
+    "usedFor": "Nomination deadlines"
+  },
+  "S04": {
+    "id": "S04",
+    "url": "https://vote.nz/assets/pagecomponent-file-files/Party-lists-for-the-2026-General-Election.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Official party lists / ballot parties"
+  },
+  "S05": {
+    "id": "S05",
+    "url": "https://elections.nz/democracy-in-nz/what-is-new-zealands-system-of-government/how-are-mps-elected",
+    "accessed": "2026-10-11",
+    "usedFor": "Elections NZ: how MPs are elected / MMP threshold"
+  },
+  "S06": {
+    "id": "S06",
+    "url": "https://elections.nz/media-and-news/2026/decisions-on-party-registrations-and-logos",
+    "accessed": "2026-10-11",
+    "usedFor": "Aug 2026 party registrations"
+  },
+  "S07": {
+    "id": "S07",
+    "url": "https://elections.nz/democracy-in-nz/political-parties-in-new-zealand/register-of-political-parties",
+    "accessed": "2026-10-11",
+    "usedFor": "Register of political parties"
+  },
+  "S10": {
+    "id": "S10",
+    "url": "https://www.act.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT home / people / policy index"
+  },
+  "S10a": {
+    "id": "S10a",
+    "url": "https://www.act.org.nz/policies/economy",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT economy & cost of living"
+  },
+  "S10b": {
+    "id": "S10b",
+    "url": "https://www.act.org.nz/policies/health",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT health"
+  },
+  "S10c": {
+    "id": "S10c",
+    "url": "https://www.act.org.nz/policies/infrastructure",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT housing & infrastructure"
+  },
+  "S11": {
+    "id": "S11",
+    "url": "https://allianceparty.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance home"
+  },
+  "S11a": {
+    "id": "S11a",
+    "url": "https://allianceparty.nz/what-we-stand-for/",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance policy platform"
+  },
+  "S12": {
+    "id": "S12",
+    "url": "https://animaljustice.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Animal Justice home / values"
+  },
+  "S12a": {
+    "id": "S12a",
+    "url": "https://animaljustice.org.nz/policy/our-policies/",
+    "accessed": "2026-10-11",
+    "usedFor": "Animal Justice policies"
+  },
+  "S12b": {
+    "id": "S12b",
+    "url": "https://animaljustice.org.nz/about/our-people/",
+    "accessed": "2026-10-11",
+    "usedFor": "Animal Justice leaders"
+  },
+  "S13": {
+    "id": "S13",
+    "url": "https://www.alcp.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "ALCP home / legal home grow"
+  },
+  "S14": {
+    "id": "S14",
+    "url": "https://www.conservatives.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative Party NZ home"
+  },
+  "S15": {
+    "id": "S15",
+    "url": "https://www.palfree.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Free Palestine / palfree.nz"
+  },
+  "S16": {
+    "id": "S16",
+    "url": "https://www.greens.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Green Party home"
+  },
+  "S16a": {
+    "id": "S16a",
+    "url": "https://www.greens.org.nz/manifesto_2026",
+    "accessed": "2026-10-11",
+    "usedFor": "Green Manifesto 2026"
+  },
+  "S17": {
+    "id": "S17",
+    "url": "https://www.labour.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour home"
+  },
+  "S17a": {
+    "id": "S17a",
+    "url": "https://www.labour.org.nz/our-policies/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour 2026 policies"
+  },
+  "S17b": {
+    "id": "S17b",
+    "url": "https://www.labour.org.nz/election-policy-pages/fiscal-plan/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour fiscal plan"
+  },
+  "S18": {
+    "id": "S18",
+    "url": "https://www.national.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "National home"
+  },
+  "S18a": {
+    "id": "S18a",
+    "url": "https://www.national.org.nz/policies",
+    "accessed": "2026-10-11",
+    "usedFor": "National 2026 policies"
+  },
+  "S18b": {
+    "id": "S18b",
+    "url": "https://www.national.org.nz/policies/nationals-eco-plan",
+    "accessed": "2026-10-11",
+    "usedFor": "National economic plan"
+  },
+  "S19": {
+    "id": "S19",
+    "url": "https://www.nzfirst.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First home"
+  },
+  "S19a": {
+    "id": "S19a",
+    "url": "https://www.nzfirst.nz/candidate_list_2026",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First list announcement"
+  },
+  "S19b": {
+    "id": "S19b",
+    "url": "https://www.nzfirst.nz/our-team",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First team"
+  },
+  "S20": {
+    "id": "S20",
+    "url": "https://nzloyal.com/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal home"
+  },
+  "S20a": {
+    "id": "S20a",
+    "url": "https://nzloyal.com/policy/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal policy index"
+  },
+  "S20b": {
+    "id": "S20b",
+    "url": "https://nzloyal.com/immigration/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal immigration"
+  },
+  "S21": {
+    "id": "S21",
+    "url": "https://nzofp.co.nz/home",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Outdoors & Freedom"
+  },
+  "S22": {
+    "id": "S22",
+    "url": "https://www.opportunity.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Party home / bottom lines"
+  },
+  "S23": {
+    "id": "S23",
+    "url": "https://www.maoriparty.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori home / pou / policies"
+  },
+  "S24": {
+    "id": "S24",
+    "url": "https://tetaitokerauparty.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Tai Tokerau Party"
+  },
+  "S25": {
+    "id": "S25",
+    "url": "https://www.vision.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Vision New Zealand"
+  },
+  "S26": {
+    "id": "S26",
+    "url": "https://womensrightsparty.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Women's Rights Party home"
+  },
+  "S26a": {
+    "id": "S26a",
+    "url": "https://womensrightsparty.nz/policy/",
+    "accessed": "2026-10-11",
+    "usedFor": "Women's Rights Party policy"
+  },
+  "S19c": {
+    "id": "S19c",
+    "url": "https://www.nzfirst.nz/policy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First policy index"
+  },
+  "S19d": {
+    "id": "S19d",
+    "url": "https://www.nzfirst.nz/immigration_reform_policies",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First immigration reform"
+  },
+  "S19e": {
+    "id": "S19e",
+    "url": "https://www.nzfirst.nz/nzfirst_campaign_announcement_the_plan_to_make_nz_healthy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First Make NZ Healthy"
+  },
+  "S19f": {
+    "id": "S19f",
+    "url": "https://www.nzfirst.nz/winston_peters_ending_the_waitangi_make_work_industry",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First Waitangi Tribunal plan"
+  },
+  "S10d": {
+    "id": "S10d",
+    "url": "https://www.act.org.nz/policies/education",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT education"
+  },
+  "S10e": {
+    "id": "S10e",
+    "url": "https://www.act.org.nz/policies/law-and-order",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT law and order"
+  },
+  "S10f": {
+    "id": "S10f",
+    "url": "https://www.act.org.nz/news/act-proposes-referendum-on-co-governance",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT co-governance referendum"
+  },
+  "S12c": {
+    "id": "S12c",
+    "url": "https://animaljustice.org.nz/policies/policy-summary/",
+    "accessed": "2026-10-11",
+    "usedFor": "AJP policy summary"
+  },
+  "S12d": {
+    "id": "S12d",
+    "url": "https://animaljustice.org.nz/election-2026/election-manifesto/",
+    "accessed": "2026-10-11",
+    "usedFor": "AJP 2026 manifesto"
+  },
+  "S14b": {
+    "id": "S14b",
+    "url": "https://conservatives.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative Party NZ (org.nz)"
+  },
+  "S14c": {
+    "id": "S14c",
+    "url": "https://conservatives.org.nz/policies/overview/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative policy overview"
+  },
+  "S14d": {
+    "id": "S14d",
+    "url": "https://conservatives.org.nz/policies/health/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative health"
+  },
+  "S14e": {
+    "id": "S14e",
+    "url": "https://conservatives.org.nz/policies/climate/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative climate"
+  },
+  "S14f": {
+    "id": "S14f",
+    "url": "https://conservatives.org.nz/policies/immigration/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative immigration"
+  },
+  "S16b": {
+    "id": "S16b",
+    "url": "https://www.greens.org.nz/livelihoods_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green livelihoods"
+  },
+  "S16c": {
+    "id": "S16c",
+    "url": "https://www.greens.org.nz/health_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green health"
+  },
+  "S16d": {
+    "id": "S16d",
+    "url": "https://www.greens.org.nz/housing_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green housing"
+  },
+  "S16e": {
+    "id": "S16e",
+    "url": "https://www.greens.org.nz/climate_change_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green climate"
+  },
+  "S16f": {
+    "id": "S16f",
+    "url": "https://www.greens.org.nz/justice_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green justice"
+  },
+  "S16g": {
+    "id": "S16g",
+    "url": "https://www.greens.org.nz/immigration_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green immigration"
+  },
+  "S16h": {
+    "id": "S16h",
+    "url": "https://www.greens.org.nz/governance_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green governance / Te Tiriti"
+  },
+  "S16i": {
+    "id": "S16i",
+    "url": "https://www.greens.org.nz/security_and_defence_policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Green security and defence"
+  },
+  "S17c": {
+    "id": "S17c",
+    "url": "https://www.labour.org.nz/news/speech-chris-hipkins-treaty-principles-bill-second-reading/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour Te Tiriti speech"
+  },
+  "S18c": {
+    "id": "S18c",
+    "url": "https://www.national.org.nz/news/20250923-hon-nicola-willis-new-residence-options-to-bolster-workforce",
+    "accessed": "2026-10-11",
+    "usedFor": "National skilled residence"
+  },
+  "S18d": {
+    "id": "S18d",
+    "url": "https://www.national.org.nz/news/equal-standard-of-citizenship-tested-by-labour",
+    "accessed": "2026-10-11",
+    "usedFor": "National equal citizenship"
+  },
+  "S19g": {
+    "id": "S19g",
+    "url": "https://www.nzfirst.nz/withdraw_from_paris_accord",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First withdraw Paris Accord"
+  },
+  "S19h": {
+    "id": "S19h",
+    "url": "https://www.nzfirst.nz/the_plan_to_make_nz_healthy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First Make NZ Healthy (alt URL)"
+  },
+  "S20c": {
+    "id": "S20c",
+    "url": "https://nzloyal.com/economics/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal economics"
+  },
+  "S20d": {
+    "id": "S20d",
+    "url": "https://nzloyal.org.nz/pages/policy-overview",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal policy overview"
+  },
+  "S21b": {
+    "id": "S21b",
+    "url": "https://nzofp.co.nz/agriculture-policy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP agriculture"
+  },
+  "S21c": {
+    "id": "S21c",
+    "url": "https://nzofp.co.nz/thriving-people",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP Thriving People policy"
+  },
+  "S21d": {
+    "id": "S21d",
+    "url": "https://nzofp.co.nz/home",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP / Freedom party home"
+  },
+  "S22b": {
+    "id": "S22b",
+    "url": "https://www.opportunity.org.nz/tax-reset",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Tax Reset"
+  },
+  "S22c": {
+    "id": "S22c",
+    "url": "https://www.opportunity.org.nz/bottom_lines",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity bottom lines"
+  },
+  "S23b": {
+    "id": "S23b",
+    "url": "https://www.maoriparty.org.nz/policy",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori policy hub"
+  },
+  "S23c": {
+    "id": "S23c",
+    "url": "https://www.maoriparty.org.nz/tax",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori tax"
+  },
+  "S24b": {
+    "id": "S24b",
+    "url": "https://tetaitokerauparty.org.nz/our-policies/",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Tai Tokerau our policies"
+  },
+  "S25b": {
+    "id": "S25b",
+    "url": "https://www.vision.org.nz/visionpolicies",
+    "accessed": "2026-10-11",
+    "usedFor": "Vision NZ policies"
+  },
+  "S26b": {
+    "id": "S26b",
+    "url": "https://womensrightsparty.nz/wp-content/uploads/2023/06/policy-womens-rights-party.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "WRP full policy PDF"
+  },
+  "S30": {
+    "id": "S30",
+    "url": "https://www.labour.org.nz/election-policy-pages/capital-gains-tax/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour CGT official page"
+  },
+  "S30a": {
+    "id": "S30a",
+    "url": "https://www.rnz.co.nz/news/politics/577060/labour-will-oust-anyone-found-to-have-leaked-capital-gains-tax-policy-chris-hipkins-says",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour CGT leak then announce"
+  },
+  "S30b": {
+    "id": "S30b",
+    "url": "https://www.rnz.co.nz/news/politics/577588/labour-s-capital-gains-tax-valuation-day-details-not-to-be-revealed-until-after-election",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour CGT valuation day"
+  },
+  "S31": {
+    "id": "S31",
+    "url": "https://www.greens.org.nz/greens_commit_to_tax_the_super_rich_and_large_corporates_fairly_cut_income_tax_for_96",
+    "accessed": "2026-10-11",
+    "usedFor": "Greens tax system announcement"
+  },
+  "S31a": {
+    "id": "S31a",
+    "url": "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Greens tax package"
+  },
+  "S32": {
+    "id": "S32",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ National no new taxes"
+  },
+  "S32a": {
+    "id": "S32a",
+    "url": "https://www.national.org.nz/kiwisaver",
+    "accessed": "2026-10-11",
+    "usedFor": "National KiwiSaver policy"
+  },
+  "S32b": {
+    "id": "S32b",
+    "url": "https://www.national.org.nz/policies",
+    "accessed": "2026-10-11",
+    "usedFor": "National 2026 policies index"
+  },
+  "S33": {
+    "id": "S33",
+    "url": "https://www.opportunity.org.nz/tax-reset",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Tax Reset"
+  },
+  "S33a": {
+    "id": "S33a",
+    "url": "https://cdn.opportunity.org.nz/documents/policy/Opportunity%20Policy%20-%20Tax%20Reset%20Transition%20Plan.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Tax Reset transition PDF"
+  },
+  "S34": {
+    "id": "S34",
+    "url": "https://allianceparty.nz/what-we-stand-for/",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance tax/wealth platform"
+  },
+  "S35": {
+    "id": "S35",
+    "url": "https://www.act.org.nz/policies/economy",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT economy / KiwiSaver tax / carbon"
+  },
+  "S36": {
+    "id": "S36",
+    "url": "https://www.nzfirst.nz/policy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First policy hub tax items"
+  },
+  "S37": {
+    "id": "S37",
+    "url": "https://www.maoriparty.org.nz/tax",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori tax page"
+  },
+  "S38": {
+    "id": "S38",
+    "url": "https://www.vision.org.nz/visionpolicies",
+    "accessed": "2026-10-11",
+    "usedFor": "Vision NZ tax-free threshold"
+  },
+  "S39": {
+    "id": "S39",
+    "url": "https://nzloyal.com/economics/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal FTT / tax replace"
+  },
+  "S40": {
+    "id": "S40",
+    "url": "https://conservatives.org.nz/policies/overview/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative lower taxes overview"
+  },
+  "S41": {
+    "id": "S41",
+    "url": "https://conservatives.org.nz/policies/climate/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative Paris / climate taxes"
+  },
+  "S42": {
+    "id": "S42",
+    "url": "https://tetaitokerauparty.org.nz/our-policies/",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Tai Tokerau fiscal policies"
+  },
+  "S43": {
+    "id": "S43",
+    "url": "https://animaljustice.org.nz/policies/policy-summary/",
+    "accessed": "2026-10-11",
+    "usedFor": "AJP GST plant foods"
+  },
+  "S44": {
+    "id": "S44",
+    "url": "https://www.alcp.org.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "ALCP legalisation revenue framing"
+  },
+  "S45": {
+    "id": "S45",
+    "url": "https://womensrightsparty.nz/policy/",
+    "accessed": "2026-10-11",
+    "usedFor": "WRP pay equity / incomes"
+  },
+  "S46": {
+    "id": "S46",
+    "url": "https://nzofp.co.nz/home",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP home fiscal silence check"
+  },
+  "S47": {
+    "id": "S47",
+    "url": "https://www.palfree.nz/",
+    "accessed": "2026-10-11",
+    "usedFor": "Free Palestine fiscal silence check"
+  },
+  "S48": {
+    "id": "S48",
+    "url": "https://www.nzfirst.nz/withdraw_from_paris_accord",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First Paris / ETS framing"
+  },
+  "S49": {
+    "id": "S49",
+    "url": "https://www.nzfirst.nz/20_tax_rate_for_smes",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First 20% SME company tax"
+  },
+  "S50": {
+    "id": "S50",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1133037/te-pati-maori-unveils-kiwi-tax-plan-with-new-5-percent-stamp-duty",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Te Pati Maori Kiwi Tax Plan"
+  },
+  "S51": {
+    "id": "S51",
+    "url": "https://thespinoff.co.nz/politics/27-08-2026/te-pati-maoris-tax-plan-30k-tax-free-a-new-stamp-duty-and-a-kai-credit",
+    "accessed": "2026-10-11",
+    "usedFor": "Spinoff Te Pati Maori tax plan"
+  },
+  "S52": {
+    "id": "S52",
+    "url": "https://www.maoriparty.org.nz/tax-calculator",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori tax calculator"
+  },
+  "S53": {
+    "id": "S53",
+    "url": "https://img.scoop.co.nz/media/pdfs/2608/A_Kiwi_Tax_Plan.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Pati Maori Kiwi Tax Plan PDF"
+  },
+  "S54": {
+    "id": "S54",
+    "url": "https://cdn.opportunity.org.nz/documents/policy/Opportunity%20Policy%20-%20Tax%20Reset.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Tax Reset PDF"
+  },
+  "S55": {
+    "id": "S55",
+    "url": "https://allianceparty.nz/wp-content/uploads/2026/09/alliance-tax-justice-cost-of-living-policy-2026.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance tax justice PDF"
+  },
+  "S56": {
+    "id": "S56",
+    "url": "https://allianceparty.nz/wp-content/uploads/2026/09/alliance-tax-policy-costings-2026.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance tax costings PDF"
+  },
+  "S57": {
+    "id": "S57",
+    "url": "https://allianceparty.nz/alliance-tax-plan-first-20000-income-tax-free/",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance tax plan release"
+  },
+  "S58": {
+    "id": "S58",
+    "url": "https://allianceparty.nz/wp-content/uploads/2026/09/alliance-environment-climate-sustainable-economy-policy-2026.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Alliance environment/climate PDF"
+  },
+  "S59": {
+    "id": "S59",
+    "url": "https://conservatives.org.nz/policies/economy-1/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative economy policy"
+  },
+  "S60": {
+    "id": "S60",
+    "url": "https://conservatives.org.nz/policies/superannuation/",
+    "accessed": "2026-10-11",
+    "usedFor": "Conservative superannuation / tax relief"
+  },
+  "S61": {
+    "id": "S61",
+    "url": "https://nzloyal.com/tax/",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal monetary and taxation page"
+  },
+  "S62": {
+    "id": "S62",
+    "url": "https://nzloyal.com/wp-content/uploads/2025/05/NZ-LOYAL-1_-TRANSACTION-TAX.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ Loyal 1% transaction tax PDF"
+  },
+  "S63": {
+    "id": "S63",
+    "url": "https://animaljustice.org.nz/wp-content/uploads/2026/09/AJP-Transition-to-Plant-based-economy-policies.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "AJP plant-based transition PDF"
+  },
+  "S64": {
+    "id": "S64",
+    "url": "https://nzofp.co.nz/agriculture-policy",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP agriculture / Paris stance"
+  },
+  "S65": {
+    "id": "S65",
+    "url": "https://nzofp.co.nz/pae-ora-health-futures-bill-nzofp-submission",
+    "accessed": "2026-10-11",
+    "usedFor": "NZOFP Pae Ora submission unhealthy food tax"
+  },
+  "S66": {
+    "id": "S66",
+    "url": "https://www.alcp.org.nz/policy",
+    "accessed": "2026-10-11",
+    "usedFor": "ALCP policy page"
+  },
+  "S67": {
+    "id": "S67",
+    "url": "https://womensrightsparty.nz/policy-proposal/working-for-families-reform/",
+    "accessed": "2026-10-11",
+    "usedFor": "WRP Working for Families reform"
+  },
+  "S68": {
+    "id": "S68",
+    "url": "https://womensrightsparty.nz/policy-proposal/financial-stability-for-women-in-older-age/",
+    "accessed": "2026-10-11",
+    "usedFor": "WRP financial stability / KiwiSaver carers"
+  },
+  "S69": {
+    "id": "S69",
+    "url": "https://www.opportunity.org.nz/climate_action",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity climate / ETS"
+  },
+  "S70": {
+    "id": "S70",
+    "url": "https://www.labour.org.nz/media/pfvguai5/labour-cgt.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour CGT official PDF"
+  },
+  "S71": {
+    "id": "S71",
+    "url": "https://www.labour.org.nz/election-policy-pages/small-business-action-plan/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour small business / GST threshold"
+  },
+  "S72": {
+    "id": "S72",
+    "url": "https://www.labour.org.nz/election-policy-pages/fiscal-plan/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour fiscal plan (Investment Boost repeal)"
+  },
+  "S73": {
+    "id": "S73",
+    "url": "https://www.labour.org.nz/election-policy-pages/kiwisaver/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour KiwiSaver policy page"
+  },
+  "S74": {
+    "id": "S74",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1047365/labour-blames-mixed-messaging-on-streaming-levy-on-administrative-oversight",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour streaming levy denied"
+  },
+  "S75": {
+    "id": "S75",
+    "url": "https://www.greens.org.nz/tax_system_for_all",
+    "accessed": "2026-10-11",
+    "usedFor": "Greens tax system for all hub"
+  },
+  "S76": {
+    "id": "S76",
+    "url": "https://assets.nationbuilder.com/beachheroes/pages/71965/attachments/original/1782084525/GreensTaxPolicy2026.pdf?1782084525=",
+    "accessed": "2026-10-11",
+    "usedFor": "Greens Tax Policy 2026 PDF"
+  },
+  "S77": {
+    "id": "S77",
+    "url": "https://www.national.org.nz/policies/no-new-taxes",
+    "accessed": "2026-10-11",
+    "usedFor": "National no new taxes policy"
+  },
+  "S78": {
+    "id": "S78",
+    "url": "https://www.national.org.nz/policies/boost-for-graduates",
+    "accessed": "2026-10-11",
+    "usedFor": "National student loan repayment cut"
+  },
+  "S79": {
+    "id": "S79",
+    "url": "https://assets.national.org.nz/web/prod/National%20KiwiSaver%20policy%20document.pdf?v=1782016131",
+    "accessed": "2026-10-11",
+    "usedFor": "National KiwiSaver PDF"
+  },
+  "S80": {
+    "id": "S80",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1656972/no-income-tax-cuts-before-books-in-surplus-nicola-willis",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ National bracket creep signal"
+  },
+  "S81": {
+    "id": "S81",
+    "url": "https://www.act.org.nz/scrap-net-zero-cut-the-carbon-tax",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT scrap net zero / carbon tax"
+  },
+  "S82": {
+    "id": "S82",
+    "url": "https://www.interest.co.nz/sites/default/files/2026-10/No_tax_on_Kiwisaver_earnings_FINAL.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "ACT no tax on KiwiSaver earnings PDF"
+  },
+  "S83": {
+    "id": "S83",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1714907/act-pledges-removing-tax-on-kiwisaver-earnings",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ ACT KiwiSaver earnings tax"
+  },
+  "S84": {
+    "id": "S84",
+    "url": "https://www.maoriparty.org.nz/waititi_writes_to_parties_asking_them_to_support_removal_of_gst_from_food",
+    "accessed": "2026-10-11",
+    "usedFor": "TPM GST off food members bill"
+  },
+  "S85": {
+    "id": "S85",
+    "url": "https://www.rnz.co.nz/news/politics/577086/labour-s-capital-gains-gamble-from-leak-to-launch",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour CGT leak to launch"
+  },
+  "S86": {
+    "id": "S86",
+    "url": "https://www.labour.org.nz/news/release-labour-to-accelerate-climate-action/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour ETS review / climate"
+  },
+  "S87": {
+    "id": "S87",
+    "url": "https://www.beehive.govt.nz/release/responsible-tax-relief-squeezed-middle",
+    "accessed": "2026-10-11",
+    "usedFor": "Budget 2024 tax relief delivery / coalition funding notes"
+  },
+  "S88": {
+    "id": "S88",
+    "url": "https://www.rnz.co.nz/news/politics/518244/national-unveils-budget-2024-keeps-tax-cut-promises",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Budget 2024 tax cuts / ACT flatten tax not pursued"
+  },
+  "S89": {
+    "id": "S89",
+    "url": "https://www.1news.co.nz/2024/02/12/three-waters-repeal-to-go-ahead-replacement-due-by-mid-2025/",
+    "accessed": "2026-10-11",
+    "usedFor": "Three Waters repeal announcement"
+  },
+  "S90": {
+    "id": "S90",
+    "url": "https://www.legislation.govt.nz/act/public/2024/0002/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Water Services Acts Repeal Act 2024"
+  },
+  "S91": {
+    "id": "S91",
+    "url": "https://www.legislation.govt.nz/act/public/2024/0011/29.0/LMS945159.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Bright-line reduced to 2 years legislation"
+  },
+  "S92": {
+    "id": "S92",
+    "url": "https://www.regulation.govt.nz/assets/RIS-Documents/ris-ird-rbptrp-dec23.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "IRD RIS reducing bright-line period"
+  },
+  "S93": {
+    "id": "S93",
+    "url": "https://www.interest.co.nz/sites/default/files/2023-11/NZFirst%20Agreement%202.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "National-NZ First coalition agreement PDF"
+  },
+  "S94": {
+    "id": "S94",
+    "url": "https://legislation.govt.nz/act/public/2023/0066/latest/LMS927066.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Clean Vehicle Discount Scheme Repeal Act 2023"
+  },
+  "S95": {
+    "id": "S95",
+    "url": "https://www.transport.govt.nz/assets/Uploads/OC231022-Next-steps-to-legislate-the-end-of-the-Clean-Car-Discount-marked-up_Redacted.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "MoT Clean Car Discount repeal briefing"
+  },
+  "S96": {
+    "id": "S96",
+    "url": "https://www.rnz.co.nz/news/politics/419719/auckland-light-rail-process-ends-after-govt-fails-to-reach-agreement",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Auckland light rail process ends 2020"
+  },
+  "S97": {
+    "id": "S97",
+    "url": "https://newsroom.co.nz/2020/10/14/election-2020-driving-without-the-handbrake/",
+    "accessed": "2026-10-11",
+    "usedFor": "Newsroom 2020 light rail / tax context"
+  },
+  "S98": {
+    "id": "S98",
+    "url": "https://www.legislation.govt.nz/bill/government/2020/0002/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "39 percent tax rate bill 2020"
+  },
+  "S99": {
+    "id": "S99",
+    "url": "https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2020/2020-ir-cab-20-sub-0484/2020-ir-cab-20-sub-0484.pdf?modified=20201202023212",
+    "accessed": "2026-10-11",
+    "usedFor": "IRD info release new top tax rate"
+  },
+  "S100": {
+    "id": "S100",
+    "url": "https://newsroom.co.nz/2020/09/09/when-winning-matters-more-than-taxing-wealth/",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour rules out CGT/wealth tax 2020"
+  },
+  "S101": {
+    "id": "S101",
+    "url": "https://newsroom.co.nz/2020/10/14/election-2020-driving-without-the-handbrake/",
+    "accessed": "2026-10-11",
+    "usedFor": "Newsroom Greens wealth tax vs Labour rule-out"
+  },
+  "S102": {
+    "id": "S102",
+    "url": "https://kaingaora.govt.nz/assets/Publications/Statement-of-Performance-Expectations/Statement-of-performance-expectations-2021-2022.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Kainga Ora public housing plan SPE"
+  },
+  "S103": {
+    "id": "S103",
+    "url": "https://www.scoop.co.nz/stories/PA2010/S00098/labour-failed-to-deliver-on-their-key-promises.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "KiwiBuild delivery shortfall commentary 2020"
+  },
+  "S104": {
+    "id": "S104",
+    "url": "https://www.maoriparty.org.nz/labour_greens_and_tep_tim_ori",
+    "accessed": "2026-10-11",
+    "usedFor": "Opposition call to block Treaty Principles Bill"
+  },
+  "S105": {
+    "id": "S105",
+    "url": "https://www.rnz.co.nz/news/politics/557804/celebrations-at-defeat-of-divisive-treaty-principles-bill",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Treaty Principles Bill defeated April 2025"
+  },
+  "S106": {
+    "id": "S106",
+    "url": "https://www.interest.co.nz/sites/default/files/embedded_images/NZLP%20%26%20GP%20C%26S%20Agreement%20FINAL.PDF",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour-Greens 2020 confidence and supply agreement"
+  },
+  "S107": {
+    "id": "S107",
+    "url": "https://img.scoop.co.nz/media/pdfs/2009/EMBARGOED_Farming_for_the_Future_policy_document.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Greens 2020 farming emissions pricing policy"
+  },
+  "S108": {
+    "id": "S108",
+    "url": "https://environment.govt.nz/assets/publications/Pricing-agricultural-emissions-report-under-section-215-of-the-CCRA.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Section 215 agricultural emissions pricing report"
+  },
+  "S109": {
+    "id": "S109",
+    "url": "https://www.interest.co.nz/sites/default/files/2023-11/National_ACT_Agreement.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "National-ACT coalition agreement PDF"
+  },
+  "S110": {
+    "id": "S110",
+    "url": "https://www.justice.govt.nz/justice-sector-policy/key-initiatives/three-strikes-law/",
+    "accessed": "2026-10-11",
+    "usedFor": "MoJ Three Strikes reinstatement"
+  },
+  "S111": {
+    "id": "S111",
+    "url": "https://www.health.govt.nz/information-releases/cabinet-and-briefing-material-smokefree-2025-progressing-coalition-agreement-commitments-and",
+    "accessed": "2026-10-11",
+    "usedFor": "MoH Smokefree coalition repeal Cabinet papers"
+  },
+  "S112": {
+    "id": "S112",
+    "url": "https://www.rnz.co.nz/news/politics/503153/coalition-details-at-a-glance-what-you-need-to-know",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ coalition details Fees Free foreign buyers"
+  },
+  "S113": {
+    "id": "S113",
+    "url": "https://www.legislation.govt.nz/act/public/2022/0030/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Pae Ora 2022 establishing Maori Health Authority"
+  },
+  "S114": {
+    "id": "S114",
+    "url": "https://www.legislation.govt.nz/act/public/2024/0005/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Pae Ora Maori Health Authority Disestablishment Act 2024"
+  },
+  "S115": {
+    "id": "S115",
+    "url": "https://www.nzherald.co.nz/nz/why-te-pati-maori-mass-protests-are-hitting-the-streets-across-new-zealand/NLVYY6JZVNG25MGDNNM5UQSCJ4/",
+    "accessed": "2026-10-11",
+    "usedFor": "Herald TPM protests Maori Health Authority Treaty"
+  },
+  "S116": {
+    "id": "S116",
+    "url": "https://www.beehive.govt.nz/release/government-cancels-auckland-light-rail",
+    "accessed": "2026-10-11",
+    "usedFor": "Beehive cancels Auckland light rail Dec 2023"
+  },
+  "S117": {
+    "id": "S117",
+    "url": "https://www.transport.govt.nz/assets/Uploads/Cancelling-the-Auckland-Light-Rail-Project-Cabinet-Paper_Proactive-Release.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Cabinet paper cancelling Auckland light rail"
+  },
+  "S118": {
+    "id": "S118",
+    "url": "https://www.beehive.govt.nz/release/major-step-towards-fairer-system-new-zealand-workers",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour Fair Pay Agreements commitment release"
+  },
+  "S119": {
+    "id": "S119",
+    "url": "https://www.employment.govt.nz/news-and-updates/fair-pay-agreements-bill-passes-into-law",
+    "accessed": "2026-10-11",
+    "usedFor": "Fair Pay Agreements Act passes into law"
+  },
+  "S120": {
+    "id": "S120",
+    "url": "https://www.beehive.govt.nz/release/new-legislation-puts-new-zealand-path-smokefree-future",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour 2022 smokefree endgame legislation release"
+  },
+  "S121": {
+    "id": "S121",
+    "url": "https://legislation.govt.nz/act/public/2024/0006/latest/LMS939046.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Smokefree Environments repeal Act 2024"
+  },
+  "S122": {
+    "id": "S122",
+    "url": "https://www.legislation.govt.nz/act/public/2024/0040/latest/LMS965440.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Education and Training Amendment Act 2024 charter schools"
+  },
+  "S123": {
+    "id": "S123",
+    "url": "https://assets.nationbuilder.com/actnz/mailings/6957/attachments/original/National_ACT_Agreement.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "National-ACT coalition agreement (charter schools etc)"
+  },
+  "S124": {
+    "id": "S124",
+    "url": "https://www.beehive.govt.nz/release/reshaping-health-system-bring-m%C4%81ori-health-closer-home",
+    "accessed": "2026-10-11",
+    "usedFor": "Beehive Maori Health Authority disestablishment framing"
+  },
+  "S125": {
+    "id": "S125",
+    "url": "https://legislation.govt.nz/bill/member/2022/0140/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "TPM Electoral Right to Switch Rolls Freely bill"
+  },
+  "S126": {
+    "id": "S126",
+    "url": "https://www.justice.govt.nz/justice-sector-policy/key-initiatives/a-treaty-principles-bill/",
+    "accessed": "2026-10-11",
+    "usedFor": "MoJ Treaty Principles Bill key initiative page"
+  },
+  "S127": {
+    "id": "S127",
+    "url": "https://www.rnz.co.nz/news/politics/510396/bill-to-disestablish-maori-health-authority-passes-third-reading",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Maori Health Authority disestablishment third reading"
+  },
+  "S128": {
+    "id": "S128",
+    "url": "https://www.scoop.co.nz/stories/PA2211/S00082/government-votes-against-legislation-that-would-advance-maori-electoral-rights.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "TPM roll-switch members bill defeated first reading 2022"
+  },
+  "S129": {
+    "id": "S129",
+    "url": "https://elections.nz/assets/pagecomponent-file-files/Register-of-Political-Parties-and-Logos-29-September-2026.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "EC Register of Political Parties and Logos PDF (ballot logos)"
+  },
+  "S131": {
+    "id": "S131",
+    "url": "https://www.opportunity.org.nz/bottom_lines",
+    "accessed": "2026-10-11",
+    "usedFor": "Opportunity Party 2026 coalition bottom lines"
+  },
+  "S132": {
+    "id": "S132",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Opportunity bottom lines / Luxon rule-out context"
+  },
+  "S133": {
+    "id": "S133",
+    "url": "https://www.rnz.co.nz/news/politics/814942/christopher-luxon-says-ruling-out-working-with-opportunity-party-not-a-surprise",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ National rules out Opportunity"
+  },
+  "S134": {
+    "id": "S134",
+    "url": "https://thespinoff.co.nz/politics/25-08-2026/the-rule-in-rule-out-game-is-ruining-one-of-the-best-things-about-mmp",
+    "accessed": "2026-10-11",
+    "usedFor": "Spinoff 2026 rule-in rule-out summary (National/Labour blocs)"
+  },
+  "S135": {
+    "id": "S135",
+    "url": "https://www.rnz.co.nz/news/politics/586422/labour-leader-chris-hipkins-quells-claims-of-internal-disagreement-over-te-pati-maori",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour TPM compatibility notes prisons Treaty Ombudsman"
+  },
+  "S136": {
+    "id": "S136",
+    "url": "https://www.1news.co.nz/2026/06/23/hipkins-confident-he-can-form-coalition-with-greens-without-budging-on-tax",
+    "accessed": "2026-10-11",
+    "usedFor": "1News Labour Greens tax negotiation stance"
+  },
+  "S137": {
+    "id": "S137",
+    "url": "https://waateanews.com/2026/09/05/te-pati-maori-draws-a-line-in-the-sand-but-what-are-the-real-coalition-bottom-lines/",
+    "accessed": "2026-10-11",
+    "usedFor": "Waatea Te Pati Maori Te Tiriti constitutional bottom line"
+  },
+  "S138": {
+    "id": "S138",
+    "url": "https://elections.nz/democracy-in-nz/what-is-new-zealands-system-of-government/what-is-mmp",
+    "accessed": "2026-10-11",
+    "usedFor": "Elections NZ: what is MMP"
+  },
+  "S139": {
+    "id": "S139",
+    "url": "https://www.rnz.co.nz/news/politics/952667/chris-hipkins-officially-rules-out-working-with-new-zealand-first-in-any-government-he-leads",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ Labour rules out NZ First 2026"
+  },
+  "S140": {
+    "id": "S140",
+    "url": "https://www.1news.co.nz/2026/08/10/labour-rules-out-nz-first-hipkins-says-caucus-call-was-unanimous",
+    "accessed": "2026-10-11",
+    "usedFor": "1News Labour NZ First rule-out unanimous"
+  },
+  "S141": {
+    "id": "S141",
+    "url": "https://www.teaonews.co.nz/2026/09/02/te-pati-maoris-te-tiriti-entrenchment-plan-how-would-it-work-and-could-it-happen/",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Ao TPM Te Tiriti entrenchment bottom line"
+  },
+  "S142": {
+    "id": "S142",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1715173/te-pati-maori-announces-one-person-party-list-for-2026-election",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ TPM one-person list / electorate strategy"
+  },
+  "S143": {
+    "id": "S143",
+    "url": "https://www.nzherald.co.nz/nz/politics/election-2026-opportunity-party-releases-its-five-bottom-lines-with-one-big-policy-missing/WP3XKEAUMVHSJOPPFPPEWNHJB4/",
+    "accessed": "2026-10-11",
+    "usedFor": "Herald Opportunity bottom lines / Peters foreign minister"
+  },
+  "S144": {
+    "id": "S144",
+    "url": "https://www.1news.co.nz/2026/05/11/kapa-kingi-splits-from-te-pati-maori-launches-new-party/",
+    "accessed": "2026-10-11",
+    "usedFor": "1News Te Tai Tokerau Party launch / talks openness"
+  },
+  "S145": {
+    "id": "S145",
+    "url": "https://www.alcp.org.nz/news",
+    "accessed": "2026-10-11",
+    "usedFor": "ALCP news cannabis legalisation voter steering"
+  },
+  "S146": {
+    "id": "S146",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ National no new taxes coalition pledge"
+  },
+  "S147": {
+    "id": "S147",
+    "url": "https://elections.nz/democracy-in-nz/about-elections/how-our-electoral-system-works",
+    "accessed": "2026-10-11",
+    "usedFor": "Elections NZ electoral system overview / votes cast"
+  },
+  "S148": {
+    "id": "S148",
+    "url": "https://nzhistory.govt.nz/proclamation-of-1852-constitution-act",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory Constitution Act 1852 / representative government"
+  },
+  "S149": {
+    "id": "S149",
+    "url": "https://nzhistory.govt.nz/page/nzs-first-general-election-begins",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory first general election 1853"
+  },
+  "S150": {
+    "id": "S150",
+    "url": "https://nzhistory.govt.nz/page/setting-maori-seats",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory Maori seats 1867"
+  },
+  "S151": {
+    "id": "S151",
+    "url": "https://www.legislation.govt.nz/act/public/1867/47/en/latest/",
+    "accessed": "2026-10-11",
+    "usedFor": "Maori Representation Act 1867 legislation"
+  },
+  "S152": {
+    "id": "S152",
+    "url": "https://teara.govt.nz/en/voting-rights/page-2",
+    "accessed": "2026-10-11",
+    "usedFor": "Te Ara voting rights / male franchise expansion"
+  },
+  "S153": {
+    "id": "S153",
+    "url": "https://nzhistory.govt.nz/politics/womens-suffrage",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory women suffrage 1893"
+  },
+  "S154": {
+    "id": "S154",
+    "url": "https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand",
+    "accessed": "2026-10-11",
+    "usedFor": "Ministry for Women suffrage history"
+  },
+  "S155": {
+    "id": "S155",
+    "url": "https://nzhistory.govt.nz/politics/fpp-to-mmp/first-past-the-post",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory FPP era"
+  },
+  "S156": {
+    "id": "S156",
+    "url": "https://nzhistory.govt.nz/politics/fpp-to-mmp",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory FPP to MMP overview / referendums"
+  },
+  "S157": {
+    "id": "S157",
+    "url": "https://www3.parliament.nz/media/4000/03-ch-3-electoral.pdf",
+    "accessed": "2026-10-11",
+    "usedFor": "Parliament Electoral chapter PDF (MMP 1993 referendum)"
+  },
+  "S158": {
+    "id": "S158",
+    "url": "https://nzhistory.govt.nz/page/new-zealanders-go-polls-first-mmp-election",
+    "accessed": "2026-10-11",
+    "usedFor": "NZHistory first MMP election 1996"
+  },
+  "S159": {
+    "id": "S159",
+    "url": "https://www.beehive.govt.nz/release/tax-changes-boost-economy-encourage-prosperity",
+    "accessed": "2026-10-11",
+    "usedFor": "National 2008 tax package announcement"
+  },
+  "S160": {
+    "id": "S160",
+    "url": "https://www.beehive.govt.nz/release/government-delivers-its-tax-cut-promises",
+    "accessed": "2026-10-11",
+    "usedFor": "Government delivers tax cut promises"
+  },
+  "S161": {
+    "id": "S161",
+    "url": "https://www.beehive.govt.nz/release/fact-sheet-gst-and-compensation",
+    "accessed": "2026-10-11",
+    "usedFor": "Budget 2010 GST compensation fact sheet"
+  },
+  "S162": {
+    "id": "S162",
+    "url": "https://www.beehive.govt.nz/release/fact-sheet-personal-tax-cuts",
+    "accessed": "2026-10-11",
+    "usedFor": "Budget 2010 personal tax cuts fact sheet"
+  },
+  "S163": {
+    "id": "S163",
+    "url": "https://www.legislation.govt.nz/act/public/2008/0106/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Employment Relations Amendment Act 2008"
+  },
+  "S164": {
+    "id": "S164",
+    "url": "https://www.legislation.govt.nz/bill/government/2008/0008/latest/DLM1765601.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Employment Relations Amendment Bill 2008 trial periods"
+  },
+  "S165": {
+    "id": "S165",
+    "url": "https://www.beehive.govt.nz/release/ultra-fast-broadband-rollout-begins",
+    "accessed": "2026-10-11",
+    "usedFor": "UFB rollout begins"
+  },
+  "S166": {
+    "id": "S166",
+    "url": "https://www.scoop.co.nz/stories/PA0804/S00522.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "National 2008 broadband investment pledge coverage"
+  },
+  "S167": {
+    "id": "S167",
+    "url": "https://www.rnz.co.nz/news/politics/89600/national-announces-plans-for-asset-sale-profits",
+    "accessed": "2026-10-11",
+    "usedFor": "National asset sale plans"
+  },
+  "S168": {
+    "id": "S168",
+    "url": "https://www.legislation.govt.nz/act/public/2012/0045/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Public Finance (Mixed Ownership Model) Amendment Act 2012"
+  },
+  "S169": {
+    "id": "S169",
+    "url": "https://www.rnz.co.nz/news/politics/383033/capital-gains-tax-recommendations-opposition-comes-out-swinging",
+    "accessed": "2026-10-11",
+    "usedFor": "Opposition response to TWG CGT recommendations"
+  },
+  "S170": {
+    "id": "S170",
+    "url": "https://www.rnz.co.nz/news/politics/387253/no-mandate-for-capital-gains-tax-pm",
+    "accessed": "2026-10-11",
+    "usedFor": "PM: no mandate for capital gains tax"
+  },
+  "S171": {
+    "id": "S171",
+    "url": "https://www.rnz.co.nz/news/politics/375417/parliament-passes-bill-banning-new-offshore-oil-and-gas-exploration",
+    "accessed": "2026-10-11",
+    "usedFor": "Parliament passes offshore oil and gas exploration ban"
+  },
+  "S172": {
+    "id": "S172",
+    "url": "https://www.beehive.govt.nz/release/planning-future-no-new-offshore-oil-and-gas-exploration-permits",
+    "accessed": "2026-10-11",
+    "usedFor": "Government announcement ending new offshore permits"
+  },
+  "S173": {
+    "id": "S173",
+    "url": "https://www.rnz.co.nz/news/political/386047/gun-laws-act-leader-david-seymour-says-government-rushed",
+    "accessed": "2026-10-11",
+    "usedFor": "Seymour on rushed gun law reform"
+  },
+  "S174": {
+    "id": "S174",
+    "url": "https://www.legislation.govt.nz/act/public/2019/0012/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Arms Amendment Act 2019"
+  },
+  "S175": {
+    "id": "S175",
+    "url": "https://www.beehive.govt.nz/release/national-and-act-agree-three-strikes-regime",
+    "accessed": "2026-10-11",
+    "usedFor": "National and ACT agree three-strikes regime"
+  },
+  "S176": {
+    "id": "S176",
+    "url": "https://www.legislation.govt.nz/act/public/2010/0033/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Sentencing and Parole Reform Act 2010"
+  },
+  "S177": {
+    "id": "S177",
+    "url": "https://www.rnz.co.nz/news/politics/92973/national-act-agree-to-adopt-controversial-us-school-model",
+    "accessed": "2026-10-11",
+    "usedFor": "National-ACT partnership schools agreement"
+  },
+  "S178": {
+    "id": "S178",
+    "url": "https://www.legislation.govt.nz/act/public/2013/0034/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Education Amendment Act 2013"
+  },
+  "S179": {
+    "id": "S179",
+    "url": "https://www.beehive.govt.nz/release/national-act-agreement-announced",
+    "accessed": "2026-10-11",
+    "usedFor": "National-ACT agreement announced"
+  },
+  "S180": {
+    "id": "S180",
+    "url": "https://www.beehive.govt.nz/release/government-review-spending-policy-advice",
+    "accessed": "2026-10-11",
+    "usedFor": "Government review of spending on policy advice"
+  },
+  "S181": {
+    "id": "S181",
+    "url": "https://www.beehive.govt.nz/feature/labour-delivers-major-policies-families",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour delivers KiwiSaver and family policies 2007"
+  },
+  "S182": {
+    "id": "S182",
+    "url": "https://www.legislation.govt.nz/act/public/2006/0040/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "KiwiSaver Act 2006"
+  },
+  "S183": {
+    "id": "S183",
+    "url": "https://www.beehive.govt.nz/release/1-april-marks-new-era-student-loans",
+    "accessed": "2026-10-11",
+    "usedFor": "1 April interest-free student loans"
+  },
+  "S184": {
+    "id": "S184",
+    "url": "https://www.legislation.govt.nz/act/public/2005/0122/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Student Loan Scheme Amendment Act 2005"
+  },
+  "S185": {
+    "id": "S185",
+    "url": "https://www.beehive.govt.nz/release/celebrate-start-20-hours-free-ece-0",
+    "accessed": "2026-10-11",
+    "usedFor": "20 Hours Free ECE start"
+  },
+  "S186": {
+    "id": "S186",
+    "url": "https://www.legislation.govt.nz/act/public/2008/0085/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Climate Change Response (Emissions Trading) Amendment Act 2008"
+  },
+  "S187": {
+    "id": "S187",
+    "url": "https://www.beehive.govt.nz/release/emissions-trading-scheme-passes-into-law",
+    "accessed": "2026-10-11",
+    "usedFor": "ETS passes into law"
+  },
+  "S188": {
+    "id": "S188",
+    "url": "https://www.rnz.co.nz/news/election-2011/91683/national-planning-fire-sale-of-assets,-goff-warns",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour warns against asset sales 2011"
+  },
+  "S189": {
+    "id": "S189",
+    "url": "https://www.scoop.co.nz/stories/PO1312/S00242/final-result-of-citizens-initiated-referendum.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "2013 asset sales referendum final result"
+  },
+  "S190": {
+    "id": "S190",
+    "url": "https://www.beehive.govt.nz/release/317-million-year-support-tertiary-education-quality-and-update-first-four-months-fees-free",
+    "accessed": "2026-10-11",
+    "usedFor": "Fees Free early uptake update"
+  },
+  "S191": {
+    "id": "S191",
+    "url": "https://www.education.govt.nz/our-work/publications/budget-2018/fees-free-tertiary-education-and-training/",
+    "accessed": "2026-10-11",
+    "usedFor": "Education Fees Free policy pages"
+  },
+  "S192": {
+    "id": "S192",
+    "url": "https://www.msd.govt.nz/about-msd-and-our-work/newsroom/2017/families-package-qas.html",
+    "accessed": "2026-10-11",
+    "usedFor": "MSD Families Package Q&A"
+  },
+  "S193": {
+    "id": "S193",
+    "url": "https://www.legislation.govt.nz/act/public/2017/0051/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Families Package (Income Tax and Benefits) Act 2017"
+  },
+  "S194": {
+    "id": "S194",
+    "url": "https://www.rnz.co.nz/news/politics/342276/labour-new-zealand-first-deal-the-nitty-gritty",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour-NZ First coalition deal details"
+  },
+  "S195": {
+    "id": "S195",
+    "url": "https://www.legislation.govt.nz/act/public/2018/0025/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Overseas Investment Amendment Act 2018"
+  },
+  "S196": {
+    "id": "S196",
+    "url": "https://www.rnz.co.nz/news/politics/427216/labour-promised-big-on-housing-has-it-delivered",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ housing delivery assessment"
+  },
+  "S197": {
+    "id": "S197",
+    "url": "https://www.beehive.govt.nz/release/kiwibuild-reset-announced",
+    "accessed": "2026-10-11",
+    "usedFor": "KiwiBuild reset announcement"
+  },
+  "S198": {
+    "id": "S198",
+    "url": "https://www.rnz.co.nz/news/political/354858/govt-bans-new-offshore-oil-and-gas-exploration",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ coverage of offshore exploration ban"
+  },
+  "S199": {
+    "id": "S199",
+    "url": "https://www.beehive.govt.nz/release/provincial-growth-fund-open-business",
+    "accessed": "2026-10-11",
+    "usedFor": "Provincial Growth Fund open for business"
+  },
+  "S200": {
+    "id": "S200",
+    "url": "https://www.beehive.govt.nz/release/coalition-agreement-new-zealand-labour-party-new-zealand-first",
+    "accessed": "2026-10-11",
+    "usedFor": "Labour-NZ First coalition agreement release"
+  },
+  "S201": {
+    "id": "S201",
+    "url": "https://www.beehive.govt.nz/release/minimum-wage-increase-2000-hour",
+    "accessed": "2026-10-11",
+    "usedFor": "Minimum wage increase to $20/hour"
+  },
+  "S202": {
+    "id": "S202",
+    "url": "https://www.legislation.govt.nz/regulation/public/2021/0024/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Minimum Wage Order 2021"
+  },
+  "S203": {
+    "id": "S203",
+    "url": "https://www.scoop.co.nz/stories/PA1206/S00276/nz-first-committed-to-buying-back-state-owned-assets.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "NZ First buy-back pledge 2012"
+  },
+  "S204": {
+    "id": "S204",
+    "url": "https://www.beehive.govt.nz/release/landmark-climate-change-bill-passes",
+    "accessed": "2026-10-11",
+    "usedFor": "Zero Carbon bill passes"
+  },
+  "S205": {
+    "id": "S205",
+    "url": "https://www.legislation.govt.nz/act/public/2019/0061/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Climate Change Response (Zero Carbon) Amendment Act 2019"
+  },
+  "S206": {
+    "id": "S206",
+    "url": "https://www.rnz.co.nz/news/politics/342288/welfare-climate-big-winners-in-greens-labour-deal",
+    "accessed": "2026-10-11",
+    "usedFor": "Greens-Labour C&S welfare and climate items"
+  },
+  "S207": {
+    "id": "S207",
+    "url": "https://www.weag.govt.nz/weag-report/",
+    "accessed": "2026-10-11",
+    "usedFor": "WEAG Whakamana Tangata report"
+  },
+  "S208": {
+    "id": "S208",
+    "url": "https://elections.nz/media-and-news/2020/official-referendum-results-released",
+    "accessed": "2026-10-11",
+    "usedFor": "Official 2020 referendum results"
+  },
+  "S209": {
+    "id": "S209",
+    "url": "https://www.rnz.co.nz/news/political/430251/cannabis-referendum-official-result-confirms-no-vote",
+    "accessed": "2026-10-11",
+    "usedFor": "Cannabis referendum No confirmed"
+  },
+  "S210": {
+    "id": "S210",
+    "url": "https://www.rnz.co.nz/news/political/229999/asset-sales-referendum-results",
+    "accessed": "2026-10-11",
+    "usedFor": "RNZ asset sales referendum results"
+  },
+  "S211": {
+    "id": "S211",
+    "url": "https://www.beehive.govt.nz/release/national-maori-party-agreement-announced",
+    "accessed": "2026-10-11",
+    "usedFor": "National-Maori Party agreement announced"
+  },
+  "S212": {
+    "id": "S212",
+    "url": "https://www.scoop.co.nz/stories/PA1005/S00080/whanau-ora-an-investment-in-families.htm",
+    "accessed": "2026-10-11",
+    "usedFor": "Whanau Ora Budget 2010 investment"
+  },
+  "S213": {
+    "id": "S213",
+    "url": "https://www.beehive.govt.nz/release/repeal-foreshore-and-seabed-act-announced",
+    "accessed": "2026-10-11",
+    "usedFor": "Repeal of Foreshore and Seabed Act announced"
+  },
+  "S214": {
+    "id": "S214",
+    "url": "https://www.legislation.govt.nz/act/public/2011/0003/latest/whole.html",
+    "accessed": "2026-10-11",
+    "usedFor": "Marine and Coastal Area (Takutai Moana) Act 2011"
+  },
+  "S215": {
+    "id": "S215",
+    "url": "https://www.justice.govt.nz/justice-sector-policy/constitutional-issues-and-human-rights/constitutional-advisory-panel/",
+    "accessed": "2026-10-11",
+    "usedFor": "Constitutional Advisory Panel archive"
+  }
+}

@@ -1,0 +1,1472 @@
+{
+  "issues": [
+    {
+      "id": "economy_tax",
+      "label": "Economy & tax"
+    },
+    {
+      "id": "health",
+      "label": "Health"
+    },
+    {
+      "id": "housing",
+      "label": "Housing"
+    },
+    {
+      "id": "climate_environment",
+      "label": "Climate & environment"
+    },
+    {
+      "id": "education",
+      "label": "Education"
+    },
+    {
+      "id": "justice_crime",
+      "label": "Justice & crime"
+    },
+    {
+      "id": "immigration",
+      "label": "Immigration"
+    },
+    {
+      "id": "te_tiriti_maori",
+      "label": "Te Tiriti / Maori issues"
+    },
+    {
+      "id": "foreign_defence",
+      "label": "Foreign policy & defence"
+    },
+    {
+      "id": "social_issues",
+      "label": "Social issues"
+    }
+  ],
+  "policies": {
+    "act": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "No tax on KiwiSaver earnings; scrap net-zero / ETS price floor with carbon-tax refund; oppose CGT/wealth taxes — see tax dossier.",
+        "sourceIds": [
+          "S10a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Supports a competitive public-private health mix, closing the medicines gap with Australia, pharmacy-led care, measurable targets, and strengthening End of Life Choice; notes abolition of the Maori Health Authority while in government.",
+        "sourceIds": [
+          "S10b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Property-rights planning reform, faster building, council incentives to consent homes, and social-housing changes emphasising contribution and time-limited tenancies.",
+        "sourceIds": [
+          "S10c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "opposes",
+        "summary": "Economy policy campaign includes scrapping net-zero framing and cutting carbon-tax costs.",
+        "sourceIds": [
+          "S10a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Education policy emphasises standards, charter schools, affordable uniforms, rural bus access and equal treatment at universities.",
+        "sourceIds": [
+          "S10d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Law and order policy: tougher consequences, three-strikes expansion, deportation of serious offenders, rural and youth crime measures.",
+        "sourceIds": [
+          "S10e"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "mixed",
+        "summary": "Infrastructure policy requires temporary workers to contribute to infrastructure from day one; no full immigration hub published.",
+        "sourceIds": [
+          "S10c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "opposes",
+        "summary": "Proposes defining Treaty principles via binding referendum; equal rights before the law and opposition to co-governance expansion.",
+        "sourceIds": [
+          "S10f",
+          "S10"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (act.org.nz).",
+        "sourceIds": [
+          "S10"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Equal rights and democracy is a named policy pillar alongside personal responsibility messaging.",
+        "sourceIds": [
+          "S10"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "alliance": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Costed plan: tax-free $20k, wealth tax 2.5% above $2m, 33% CGT, 30% company tax, 0.1% FTT, carbon tax replacing ETS — see tax dossier.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Free healthcare in every community including GP, dental, optical and audiology via a public Community Health Service.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Five-year public housing programme; Kainga Ora rents and state-backed mortgage repayments capped at 25% of net household income; co-ownership pathways.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Public ownership of electricity and water, a carbon tax, and a just transition supporting workers and communities.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Platform calls for free education from primary through tertiary level.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Justice policy framed as prevent harm, rehabilitate, support victims, and guarantee access to justice regardless of wealth (three strikes into treatment framing).",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (allianceparty.nz/what-we-stand-for).",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "supports",
+        "summary": "Constitutional transformation with Te Tiriti at the centre; redistribute power; redress breaches and promote te reo and Maoritanga.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Independent non-aligned foreign policy, peace-focused defence, nuclear disarmament, stronger Pacific partnerships.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Gender equality package includes 52 weeks paid parental leave, Universal Child Benefit, pay equity enforcement, reproductive rights, and support for women fleeing violence.",
+        "sourceIds": [
+          "S11a"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "animal-justice": {
+      "economy_tax": {
+        "stance": "mixed",
+        "summary": "GST off plant foods and vet services; split ETS/biogenic scheme + ag pollution tax — see tax dossier.",
+        "sourceIds": [
+          "S12c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Plant-based defaults in public institutions and GST off core plant foods; links animal agriculture to health costs.",
+        "sourceIds": [
+          "S12c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (animaljustice.org.nz/policy).",
+        "sourceIds": [
+          "S12a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Transition from harmful farming/fishing practices; habitat-focused conservation approaches in policy summary.",
+        "sourceIds": [
+          "S12c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Manifesto emphasises empathy, critical thinking and environmental awareness in education.",
+        "sourceIds": [
+          "S12d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "mixed",
+        "summary": "Stronger animal-welfare enforcement and a Commissioner for Animals; not a general criminal-justice platform.",
+        "sourceIds": [
+          "S12c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (animaljustice.org.nz/policy).",
+        "sourceIds": [
+          "S12a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "mixed",
+        "summary": "Plant-based transition materials acknowledge tangata whenua, kaitiakitanga and partnership with iwi/hapu.",
+        "sourceIds": [
+          "S12c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (animaljustice.org.nz/policy).",
+        "sourceIds": [
+          "S12a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Animal rights core platform plus political finance reform, vet affordability and companion-animal bereavement leave.",
+        "sourceIds": [
+          "S12c",
+          "S12"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "alcp": {
+      "economy_tax": {
+        "stance": "mixed",
+        "summary": "Legal cannabis expected to raise tax revenue; no rate published — see tax dossier.",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Campaign framing centres cannabis law reform with health/personal-use implications (legal home grow vision on home page).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (alcp.org.nz).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (alcp.org.nz).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (alcp.org.nz).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Legalisation agenda implies ending criminalisation of personal cannabis cultivation/use as currently framed on the party site.",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (alcp.org.nz).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "mixed",
+        "summary": "Reform framing notes disproportionate harm to Maori from prohibition.",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (alcp.org.nz).",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Primary published focus is cannabis reform / legal home grow.",
+        "sourceIds": [
+          "S13"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "conservative": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Lower personal tax direction, GST to 12.5%, align company tax to top personal rate, Super tax-free, exit Paris — see tax dossier.",
+        "sourceIds": [
+          "S14c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Train and retain NZ health staff, targeted skilled immigration for health workforce, primary care focus.",
+        "sourceIds": [
+          "S14d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No dedicated housing policy page found on conservatives.org.nz policies index.",
+        "sourceIds": [
+          "S14b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "opposes",
+        "summary": "Leave Paris Agreement; repeal climate-based taxes/regulations; practical environmental policy framing.",
+        "sourceIds": [
+          "S14e"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "unknown",
+        "summary": "Education listed in policy index; no standalone page verified in this pass.",
+        "sourceIds": [
+          "S14b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Resourced police, meaningful sentences, fair consistent justice, and a police accountability inquiry.",
+        "sourceIds": [
+          "S14c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "supports",
+        "summary": "Cap unskilled net migration to social capacity; skilled points system; end golden visas.",
+        "sourceIds": [
+          "S14f"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "opposes",
+        "summary": "One people under one law; oppose race-based division in services and employment.",
+        "sourceIds": [
+          "S14c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No dedicated foreign/defence page found.",
+        "sourceIds": [
+          "S14b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Strong families, freedom of speech/assembly and child protection listed in policy menu.",
+        "sourceIds": [
+          "S14c",
+          "S14b"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "free-palestine": {
+      "economy_tax": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (palfree.nz).",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Single-issue foreign-policy focus: justice for Palestine, international law, and a democratic state with equal rights for all citizens as stated on the party site.",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Frames work as building a mass democratic movement for justice in Aotearoa and internationally.",
+        "sourceIds": [
+          "S15"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "green": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Full income-tax bands to 45%, wealth tax 2.5% above $10m, CAT 33%, bank levy, 33% large-corp tax, 10-year bright-line — see tax dossier.",
+        "sourceIds": [
+          "S16b",
+          "S16a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Universal free dental/GP/mental health with equity focus and Te Whare Tapa Wha approach.",
+        "sourceIds": [
+          "S16c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Mass public housing, right to housing in law, decommodification and Maori-led papakainga.",
+        "sourceIds": [
+          "S16d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Urgent emissions cuts, 1.5C alignment, fossil phase-out, Tiriti-based adaptation and just transition.",
+        "sourceIds": [
+          "S16e"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Lifelong learning as a public good on the ratified policy hub.",
+        "sourceIds": [
+          "S16a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Restorative/transformative justice; Mana Orite governance; end mandatory minimums/boot camps.",
+        "sourceIds": [
+          "S16f"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "supports",
+        "summary": "Humane Tiriti-based immigration system; climate-displacement provisions; higher refugee quota.",
+        "sourceIds": [
+          "S16g"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "supports",
+        "summary": "Constitutional transformation per Matike Mai; uphold rangatiratanga across governance.",
+        "sourceIds": [
+          "S16h",
+          "S16a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Independent Pacific-oriented defence; peacekeeping/humanitarian NZDF roles.",
+        "sourceIds": [
+          "S16i"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Includes gender equity, disability rights, democracy reform, and family/sexual violence prevention references in manifesto framing.",
+        "sourceIds": [
+          "S16a"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "labour": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Announced 28% property CGT (after leak), GST registration to $80k, Investment Boost repeal, stronger KiwiSaver; streaming levy denied — see tax dossier.",
+        "sourceIds": [
+          "S17a",
+          "S17b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Three free GP visits/year via Medicard, free prescriptions from July 2027, free cervical screening and maternity scans phased in, graduate nurse job guarantee, Family Doctor Loan Scheme.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Start Work Now includes Kainga Ora building social housing again alongside school/hospital repairs and apprenticeships.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "SolarSaver programme for solar without upfront cost for homeowners, renters and communities.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "10% student loan cut for eligible borrowers; apprenticeship expansion; Maori-led skilled-work training investment.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (labour.org.nz/our-policies — no dedicated justice package highlighted in listed 2026 policies).",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "mixed",
+        "summary": "2026 policies hub has no dedicated immigration manifesto; party news criticises lowering migrant pay thresholds and weak exploitation enforcement.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "supports",
+        "summary": "Treats Te Tiriti as a living partnership and supports Maori-led solutions; also Backing Maori into Skilled Work training investment.",
+        "sourceIds": [
+          "S17c",
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "mixed",
+        "summary": "Supports NZ-India FTA with labour-protection conditions; broader defence posture not on the 2026 policies page.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Restore pay equity legislation and immediate care/support worker pay rise; Fair Go consumer protections; strengthen KiwiSaver including parental leave support.",
+        "sourceIds": [
+          "S17a"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "national": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "No new taxes; no CGT/wealth tax; compulsory KiwiSaver to 12%; student-loan repay 10%; bracket-creep cut signalled but uncosted — see tax dossier.",
+        "sourceIds": [
+          "S18a",
+          "S18b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "More medicines and earlier care; more of health spend focused on serious illness treatment at home.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Expand access to 5% first-home deposits via First Home Loan; easier commercial building consents; energy fund for home electrification.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "mixed",
+        "summary": "Nine-point affordable/reliable power plan; enabling rules for wind, solar and hydro in RMA replacement; hunting/fishing and fisheries plans alongside growth framing.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Screen-use limits including ending screens in ECE and limits in primary; graduate student-loan repayment changes.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Tougher sentences for sexual offending (abolish good-character assessments at sentencing for sexual offending); modernise sexual consent to affirmative yes; more police on Auckland buses/trains.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "supports",
+        "summary": "Skilled residence pathways and stronger compliance/deportation settings; visitor levy and Trans-Tasman travel items on 2026 policies index.",
+        "sourceIds": [
+          "S18c",
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "mixed",
+        "summary": "Uphold settlement delivery and equal citizenship principle; oppose broad co-governance expansions in party messaging.",
+        "sourceIds": [
+          "S18d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Trade/export growth (Next Billion Customers); closer Australia travel cooperation.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Modernise paid parental leave; compulsory KiwiSaver enhancements; firm/fair welfare focused on employment; affirmative consent law modernisation.",
+        "sourceIds": [
+          "S18a"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "nz-first": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "20% SME company tax under $30m; withdraw from Paris Accord — see tax dossier.",
+        "sourceIds": [
+          "S49",
+          "S36"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Make NZ Healthy plan: prevention, metabolic health, nutrition, GP autonomy and early intervention.",
+        "sourceIds": [
+          "S19e",
+          "S19h"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Immigration package includes social housing for citizens first and a 30-year population plan coordinating immigration, housing and infrastructure.",
+        "sourceIds": [
+          "S19d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "opposes",
+        "summary": "Policy to withdraw from the Paris Accord and resist emissions pricing without trading-partner parity.",
+        "sourceIds": [
+          "S19g"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzfirst.nz).",
+        "sourceIds": [
+          "S19"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzfirst.nz).",
+        "sourceIds": [
+          "S19"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "supports",
+        "summary": "Proposes referendum on a 20,000 annual resident-visa cap, link immigration to infrastructure capacity, 10-year welfare stand-down for visa holders, and reduce non-essential immigration.",
+        "sourceIds": [
+          "S19d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "opposes",
+        "summary": "Plans legislation within 100 days to abolish the Waitangi Tribunal and replace it with a Treaty of Waitangi Completion Commission to finalise pre-2008 claims; equal citizenship framing.",
+        "sourceIds": [
+          "S19f"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzfirst.nz).",
+        "sourceIds": [
+          "S19"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Positions itself as representing middle New Zealand against an elitist status quo; team page highlights experience/common-sense framing.",
+        "sourceIds": [
+          "S19",
+          "S19b"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "nz-loyal": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "1% financial transaction tax replacing income tax, GST and company tax — see tax dossier.",
+        "sourceIds": [
+          "S20c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "mixed",
+        "summary": "Health listed on policy index; overview emphasises freedom of choice and holistic modalities.",
+        "sourceIds": [
+          "S20a",
+          "S20d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "mixed",
+        "summary": "Free-market/local construction emphasis and return of lands affected by SNAs in policy overview.",
+        "sourceIds": [
+          "S20d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "opposes",
+        "summary": "Investigate green agenda claims; elevate oil/gas for energy independence (economics/overview).",
+        "sourceIds": [
+          "S20c",
+          "S20d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "mixed",
+        "summary": "Overview emphasises removing global agendas from schools and teaching informed consent.",
+        "sourceIds": [
+          "S20d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzloyal.com/policy).",
+        "sourceIds": [
+          "S20a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "supports",
+        "summary": "Temporary immigration moratorium (skilled exceptions), stronger borders, reject UN Migration Pact, reform refugee resettlement expectations, prioritise NZ values.",
+        "sourceIds": [
+          "S20b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "opposes",
+        "summary": "Remove race-based policies; written constitution limiting government (policy overview).",
+        "sourceIds": [
+          "S20d",
+          "S20a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Exit UN/WEF/WHO framing and void international agreements not consulted with the public (overview).",
+        "sourceIds": [
+          "S20d",
+          "S20b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Binding referendums, decentralise government, property rights versus state overreach.",
+        "sourceIds": [
+          "S20d",
+          "S20"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "outdoors-freedom": {
+      "economy_tax": {
+        "stance": "mixed",
+        "summary": "Exit Paris / avoid offshore carbon credits; tax unhealthy food (rate unspecified) — see tax dossier.",
+        "sourceIds": [
+          "S21b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Opposes mandatory medication of water/individuals; health and wellness linked from thriving-people policies.",
+        "sourceIds": [
+          "S21c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzofp.co.nz).",
+        "sourceIds": [
+          "S21"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Clean freshwater, reduce poisons, lifestyle-based mitigation, protect public conservation estate.",
+        "sourceIds": [
+          "S21d",
+          "S21"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Holistic inclusive education on thriving-people policy pages.",
+        "sourceIds": [
+          "S21c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzofp.co.nz).",
+        "sourceIds": [
+          "S21"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "mixed",
+        "summary": "Population limits and citizen say on tourism/population on vision materials.",
+        "sourceIds": [
+          "S21d"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzofp.co.nz).",
+        "sourceIds": [
+          "S21"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (nzofp.co.nz).",
+        "sourceIds": [
+          "S21"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Direct democracy pillar; medicinal home cannabis, anti-bullying and seniors policies on thriving-people pages.",
+        "sourceIds": [
+          "S21",
+          "S21c"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "opportunity": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Tax Reset: income scale + Citizen's Income (~$19.4k), LVT 1.75%/0.5%, KiwiSaver 2.0 to 12%, strengthen ETS — see tax dossier.",
+        "sourceIds": [
+          "S22b",
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Coalition bottom line: 10-year cross-party health plan with primary/preventive care funding.",
+        "sourceIds": [
+          "S22c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "mixed",
+        "summary": "Land value tax aimed at land-banking and affordability (Tax Reset); no standalone housing manifesto.",
+        "sourceIds": [
+          "S22b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Restore climate credibility and revive ocean health; recommit to Paris obligations and protect Climate Change Commission independence.",
+        "sourceIds": [
+          "S22c",
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (opportunity.org.nz).",
+        "sourceIds": [
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (opportunity.org.nz).",
+        "sourceIds": [
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (opportunity.org.nz).",
+        "sourceIds": [
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "mixed",
+        "summary": "States a Te Tiriti partnership approach in negotiations without a single dedicated policy document.",
+        "sourceIds": [
+          "S22c"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (opportunity.org.nz).",
+        "sourceIds": [
+          "S22"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Clean up politics: lobbying register and donation caps; Commerce Commission powers to reduce prices.",
+        "sourceIds": [
+          "S22c"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "te-pati-maori": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Kiwi Tax Plan: $30k tax-free to 48% top rate, wealth tax from $2m, 5% stamp duty, 33% company tax, land-banking/vacant taxes — see tax dossier.",
+        "sourceIds": [
+          "S37",
+          "S50",
+          "S53"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Maori-led health authority; prevention and culturally safe, accountable services.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "More public/affordable homes; build on Maori land; stop speculation and land-banking.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Ban seabed mining; climate resilience; regenerative approaches aligned with Maori values.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Maori-led education authority; embed matauranga Maori; remove barriers for whanau.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Maori-led justice; reform poverty-criminalising laws; move from mass imprisonment.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (maoriparty.org.nz).",
+        "sourceIds": [
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "supports",
+        "summary": "Entrench Te Tiriti; UNDRIP; independent commission; binding Tribunal recommendations.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "Military neutrality / independent foreign policy; review military alignments; disaster-focused NZDF roles.",
+        "sourceIds": [
+          "S23b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Cost of living relief, takatapui mana, mokopuna/oranga whanau, kai sovereignty.",
+        "sourceIds": [
+          "S23b",
+          "S23"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "te-tai-tokerau": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "Whanau Allowance + debt amnesty; 5-year regional corporate tax holiday; local food trade tax-free — see tax dossier.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Autonomous iwi-governed health authority; bonded Maori clinicians; marae-based services.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Hemp-panel local build academy; papakainga rollout; rangatahi into construction on whenua Maori.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "supports",
+        "summary": "Kaitiaki statutory authority; land-back for resilience; iwi/hapu environmental enforcement.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "mixed",
+        "summary": "Rohe Construction Academy and paid mentorship; no full national curriculum policy published.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Prison sinking lid; divert non-violent offenders to hapu-led rehabilitation; fiscal reallocation.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (tetaitokerauparty.org.nz).",
+        "sourceIds": [
+          "S24"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "supports",
+        "summary": "Te Ture Mokopuna grounded in Te Tiriti; protect He Whakaputanga and tino rangatiratanga.",
+        "sourceIds": [
+          "S24b",
+          "S24"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (tetaitokerauparty.org.nz).",
+        "sourceIds": [
+          "S24"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Mokopuna Act; mana kaumatua energy/kai support; backyard food sovereignty kits.",
+        "sourceIds": [
+          "S24b"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "vision": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "First $25k tax-free; Super/benefits/student loans tax-free; higher tax on non-compliant foreign firms; exit Paris — see tax dossier.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Frontline primary care funding; remove race-based health targeting; expand pre/post-natal and Plunket.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "supports",
+        "summary": "Unlock crown land; RMA reform for dual home builds; hapu enterprise grants.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "opposes",
+        "summary": "Leave Paris Accord; suspend UN-driven environmental regulation (sovereignty section).",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Remove gender theory/RSE from curriculum; focus on literacy, numeracy, science; higher teacher pay.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Community support officers; grassroots 24/7 family services; integrated enforcement and prevention.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "opposes",
+        "summary": "Pause mass immigration; longer citizenship path; end dual citizenship for new applicants.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "opposes",
+        "summary": "One nation one people; end race-based/He Puapua policies; honour Treaty as covenant framing.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "opposes",
+        "summary": "Withdraw from UN; restore national sovereignty over global rule-setting.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Ministry for Families, newborn grants, parental rights bill, biological sex in law.",
+        "sourceIds": [
+          "S25b"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    },
+    "womens-rights": {
+      "economy_tax": {
+        "stance": "supports",
+        "summary": "WFF/tax-credit reform and KiwiSaver support for carers; living incomes focus — see tax dossier.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "health": {
+        "stance": "supports",
+        "summary": "Supports ban on puberty blockers for sex-related distress in children; would ban cross-sex hormones under 18 and restrict related surgeries until 25+.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "housing": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (womensrightsparty.nz/policy).",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "climate_environment": {
+        "stance": "mixed",
+        "summary": "Notes climate/environment/conservation as concerns for young people needed in the women's rights struggle, without a detailed climate package on the policy page.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "education": {
+        "stance": "supports",
+        "summary": "Education recognising biological sex; age-appropriate sexuality/relationships/consent education; under-16s cannot legally consent to sexual activity.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "justice_crime": {
+        "stance": "supports",
+        "summary": "Protect women from violence; oppose rough-sex defence; prison housing by biological sex (policy PDF).",
+        "sourceIds": [
+          "S26b",
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "immigration": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (womensrightsparty.nz/policy).",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "te_tiriti_maori": {
+        "stance": "unknown",
+        "summary": "No clear published position found on this issue in materials checked as of 2026-10-11 (womensrightsparty.nz/policy).",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "foreign_defence": {
+        "stance": "supports",
+        "summary": "International solidarity with women denied education, work, political participation, or protection from violence, and forced child marriage.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      },
+      "social_issues": {
+        "stance": "supports",
+        "summary": "Repeal sex self-ID; remove gender identity from legislation; protect sex-based rights; prostitution reform; oppose liberalised surrogacy and hate-crime expansions as described on policy page.",
+        "sourceIds": [
+          "S26a"
+        ],
+        "lastVerified": "2026-10-11"
+      }
+    }
+  }
+}

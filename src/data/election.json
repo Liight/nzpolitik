@@ -1,0 +1,24 @@
+{
+  "electionName": "2026 General Election",
+  "electionDay": "2026-11-07",
+  "advanceVotingStart": "2026-10-26",
+  "overseasVotingStart": "2026-10-21",
+  "enrolBy": "2026-10-25",
+  "officialResults": "2026-11-27",
+  "nominationsClosed": "2026-10-08",
+  "partyCount": 17,
+  "links": {
+    "voteNz": "https://vote.nz/2026-general-election/about/overview",
+    "keyDates": "https://elections.nz/media-and-news/2026/key-dates-for-2026-general-election",
+    "partyListsPdf": "https://vote.nz/assets/pagecomponent-file-files/Party-lists-for-the-2026-General-Election.pdf",
+    "enrol": "https://vote.nz/",
+    "mmpHelp": "https://elections.nz/democracy-in-nz/what-is-new-zealands-system-of-government/how-are-mps-elected"
+  },
+  "mmpSummary": "At a general election you cast two votes: a party vote and an electorate vote. Under MMP, a party normally needs 5% of the party vote or at least one electorate seat to be allocated seats in proportion to its party vote. Always confirm current rules on vote.nz.",
+  "sourceIds": [
+    "S01",
+    "S02",
+    "S04",
+    "S05"
+  ]
+}

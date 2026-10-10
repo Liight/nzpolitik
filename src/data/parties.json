@@ -1,0 +1,255 @@
+[
+  {
+    "id": "act",
+    "name": "ACT New Zealand",
+    "abbreviation": "ACT",
+    "website": "https://www.act.org.nz/",
+    "leaders": [
+      "David Seymour",
+      "Nicole McKee"
+    ],
+    "summary": "Classical-liberal / libertarian-leaning party emphasising smaller government, personal responsibility, and market-oriented reform.",
+    "sourceIds": [
+      "S04",
+      "S10"
+    ]
+  },
+  {
+    "id": "alliance",
+    "name": "Alliance Party",
+    "abbreviation": "Alliance",
+    "website": "https://allianceparty.nz/",
+    "leaders": [
+      "Victor Billot"
+    ],
+    "summary": "Democratic socialist party contesting 2026 after re-registration; focuses on tax justice, public ownership, and workers' rights.",
+    "sourceIds": [
+      "S04",
+      "S11",
+      "S06"
+    ]
+  },
+  {
+    "id": "animal-justice",
+    "name": "Animal Justice Party Aotearoa New Zealand",
+    "abbreviation": "AJP",
+    "website": "https://animaljustice.org.nz/",
+    "leaders": [
+      "Rob McNeil",
+      "Danette Wereta"
+    ],
+    "summary": "Animal-rights focused party advocating compassion, non-violence, sustainability, and a just transition away from animal exploitation.",
+    "sourceIds": [
+      "S04",
+      "S12"
+    ]
+  },
+  {
+    "id": "alcp",
+    "name": "Aotearoa Legalise Cannabis Party",
+    "abbreviation": "ALCP",
+    "website": "https://www.alcp.org.nz/",
+    "leaders": [
+      "Maki Herbert",
+      "Michael Appleby"
+    ],
+    "summary": "Single-issue-centred party campaigning for cannabis law reform including legal home grow.",
+    "sourceIds": [
+      "S04",
+      "S13"
+    ]
+  },
+  {
+    "id": "conservative",
+    "name": "Conservative Party NZ",
+    "abbreviation": "Conservative",
+    "website": "https://conservatives.org.nz/",
+    "leaders": [
+      "Helen Houghton"
+    ],
+    "summary": "Socially conservative party on the 2026 party-vote ballot under the registered Conservative Party NZ name.",
+    "sourceIds": [
+      "S04",
+      "S14b",
+      "S14"
+    ]
+  },
+  {
+    "id": "free-palestine",
+    "name": "Free Palestine",
+    "abbreviation": "Free Palestine",
+    "website": "https://www.palfree.nz/",
+    "leaders": [
+      "John Minto"
+    ],
+    "summary": "Registered list party focused on Palestinian justice, international law, and related foreign-policy demands in Aotearoa New Zealand.",
+    "sourceIds": [
+      "S04",
+      "S15",
+      "S06"
+    ]
+  },
+  {
+    "id": "green",
+    "name": "Green Party",
+    "abbreviation": "Green",
+    "website": "https://www.greens.org.nz/",
+    "leaders": [
+      "Marama Davidson",
+      "Chloe Swarbrick"
+    ],
+    "summary": "Environmental and social-justice party with a large 2026 party list and published 2026 policy announcements.",
+    "sourceIds": [
+      "S04",
+      "S16"
+    ]
+  },
+  {
+    "id": "labour",
+    "name": "Labour Party",
+    "abbreviation": "Labour",
+    "website": "https://www.labour.org.nz/",
+    "leaders": [
+      "Chris Hipkins"
+    ],
+    "summary": "Centre-left major party; Chris Hipkins leads the 2026 party list.",
+    "sourceIds": [
+      "S04",
+      "S17"
+    ]
+  },
+  {
+    "id": "national",
+    "name": "National Party",
+    "abbreviation": "National",
+    "website": "https://www.national.org.nz/",
+    "leaders": [
+      "Christopher Luxon"
+    ],
+    "summary": "Centre-right major party currently in government; 2026 messaging emphasises fixing basics and building the future.",
+    "sourceIds": [
+      "S04",
+      "S18"
+    ]
+  },
+  {
+    "id": "nz-first",
+    "name": "New Zealand First Party",
+    "abbreviation": "NZ First",
+    "website": "https://www.nzfirst.nz/",
+    "leaders": [
+      "Winston Peters"
+    ],
+    "summary": "Nationalist / populist party led by Winston Peters; released its 2026 party list in October 2026.",
+    "sourceIds": [
+      "S04",
+      "S19"
+    ]
+  },
+  {
+    "id": "nz-loyal",
+    "name": "New Zealand Loyal",
+    "abbreviation": "NZ Loyal",
+    "website": "https://nzloyal.com/",
+    "leaders": [
+      "Kelvyn Alp"
+    ],
+    "summary": "Re-registered for 2026; campaign materials centre on candidates and loyalty-to-New-Zealand messaging.",
+    "sourceIds": [
+      "S04",
+      "S20",
+      "S06"
+    ]
+  },
+  {
+    "id": "outdoors-freedom",
+    "name": "NZ Outdoors & Freedom Party",
+    "abbreviation": "NZOFP",
+    "website": "https://nzofp.co.nz/home",
+    "leaders": [
+      "Sue Grey"
+    ],
+    "summary": "Freedom-oriented party (ballot name remains NZ Outdoors & Freedom Party) emphasising direct democracy and civil liberties.",
+    "sourceIds": [
+      "S04",
+      "S21",
+      "S06"
+    ]
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity Party",
+    "abbreviation": "Opportunity",
+    "website": "https://www.opportunity.org.nz/",
+    "leaders": [
+      "Qiulae Wong",
+      "Daniel Eb"
+    ],
+    "summary": "Centrist / evidence-focused party (renamed from TOP) campaigning on unity, innovation, nature, and five coalition bottom lines.",
+    "sourceIds": [
+      "S04",
+      "S22"
+    ]
+  },
+  {
+    "id": "te-pati-maori",
+    "name": "Te Pati Maori",
+    "abbreviation": "TPM",
+    "website": "https://www.maoriparty.org.nz/",
+    "leaders": [
+      "Rawiri Waititi",
+      "Debbie Ngarewa-Packer"
+    ],
+    "summary": "Maori political party focused on mana motuhake and Te Tiriti; official 2026 party list lodged with one list candidate (Lance Norman), reflecting an electorate-centred strategy.",
+    "sourceIds": [
+      "S04",
+      "S23"
+    ]
+  },
+  {
+    "id": "te-tai-tokerau",
+    "name": "Te Tai Tokerau Party",
+    "abbreviation": "TTP",
+    "website": "https://tetaitokerauparty.org.nz/",
+    "leaders": [
+      "Mariameno Kapa-Kingi",
+      "Kyla Campbell-Kamariera"
+    ],
+    "summary": "Newly registered 2026 party with a two-person official party list focused on Te Tai Tokerau.",
+    "sourceIds": [
+      "S04",
+      "S24",
+      "S06"
+    ]
+  },
+  {
+    "id": "vision",
+    "name": "Vision New Zealand",
+    "abbreviation": "Vision",
+    "website": "https://www.vision.org.nz/",
+    "leaders": [
+      "Hannah Tamaki",
+      "Heker Robertson"
+    ],
+    "summary": "Registered party led by Hannah Tamaki contesting the 2026 party vote with a six-person list.",
+    "sourceIds": [
+      "S04",
+      "S25"
+    ]
+  },
+  {
+    "id": "womens-rights",
+    "name": "Women's Rights Party",
+    "abbreviation": "WRP",
+    "website": "https://womensrightsparty.nz/",
+    "leaders": [
+      "Jill Ovens",
+      "Dawn Trenberth"
+    ],
+    "summary": "Party focused on sex-based rights for women and girls, including positions on gender self-ID and youth medical transition.",
+    "sourceIds": [
+      "S04",
+      "S26"
+    ]
+  }
+]

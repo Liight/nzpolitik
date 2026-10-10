@@ -1,0 +1,191 @@
+{
+  "parties": {
+    "national": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Major party contesting both electorates and the party vote; historically well above the 5% party-vote threshold.",
+      "listLength": 72,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "labour": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Major party contesting both electorates and the party vote; historically well above the 5% party-vote threshold.",
+      "listLength": 71,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "green": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Contests electorates and a long party list; typically relies on the party vote crossing ~5% (or an electorate seat) for list seats.",
+      "listLength": 55,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "act": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Contests electorates and a long party list; party-vote share and/or an electorate seat determine list representation under MMP.",
+      "listLength": 46,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "nz-first": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Contests electorates and a long party list; without an electorate seat, party vote near or above 5% is the usual path to seats.",
+      "listLength": 50,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "te-pati-maori": {
+      "electorateStrategy": "electorate_focus",
+      "thresholdNote": "Official 2026 list is one candidate, reflecting an electorate-centred / optional-overhang strategy; electorate wins can bring members in even if party vote is under 5%. Campaign messaging has also discussed party votes for Labour or Greens.",
+      "listLength": 1,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "opportunity": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Long party list; without an electorate seat, seats depend on reaching about 5% of the party vote under MMP.",
+      "listLength": 40,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "alliance": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Contests party vote and multiple electorates; without an electorate seat, list seats still require about 5% of the nationwide party vote.",
+      "listLength": 17,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "animal-justice": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 10,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "alcp": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Contests electorates and the party vote around cannabis reform; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 6,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "conservative": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 8,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "free-palestine": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 6,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "nz-loyal": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 17,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "outdoors-freedom": {
+      "electorateStrategy": "mixed",
+      "thresholdNote": "Campaign messaging emphasises winning an electorate plus party vote; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 17,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "te-tai-tokerau": {
+      "electorateStrategy": "electorate_focus",
+      "thresholdNote": "Very short official list (two candidates) and regional branding point to an electorate-centred strategy; check vote.nz for electorate contests.",
+      "listLength": 2,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "vision": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 6,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    },
+    "womens-rights": {
+      "electorateStrategy": "list_only",
+      "thresholdNote": "Primarily a party-vote contest; without an electorate seat, list seats require about 5% of the nationwide party vote.",
+      "listLength": 13,
+      "sourceIds": [
+        "S05",
+        "S04",
+        "S138"
+      ],
+      "lastVerified": "2026-10-11"
+    }
+  }
+}
