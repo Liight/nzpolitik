@@ -137,7 +137,7 @@ Public site at `https://liight.github.io/nzpolitik/` from repo `Liight/nzpolitik
 
 - Monorepo `Liight/wave-survivour` already owns that repo's single Pages site (Wave Survivor); adding nzpolitik there would overwrite it.
 - Project Pages under `/nzpolitik/` needs Vite `base` + React Router `basename` + `404.html` SPA fallback; a root user site (`liight.github.io`) would force a different deploy layout.
-- Vercel/Netlify work but the account already uses GitHub Pages elsewhere; one Actions workflow keeps deploy in-repo.
+- Free GitHub Pages needs a **public** repo; private + Actions briefly worked then blocked re-enable. Classic `gh-pages` branch deploy restores `/nzpolitik` → `/nzpolitik/` (Safari/iPhone slash drop).
 
 ### How it works
 

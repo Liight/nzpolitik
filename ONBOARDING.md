@@ -137,7 +137,7 @@ npm run typecheck
 
 ### Deploy to GitHub Pages
 
-1. Repo is **`Liight/nzpolitik`** (dedicated; not the monorepo origin)
+1. Repo is **`Liight/nzpolitik`** (dedicated, **public** — private repos need a paid Pages plan)
 2. Pages source: branch **`gh-pages`** / root (workflow publishes `dist/` there)
 3. Push `main` → workflow `Deploy GitHub Pages` runs `npm run build:pages` then `peaceiris/actions-gh-pages`
 4. Live URL (keep trailing slash): `https://liight.github.io/nzpolitik/`

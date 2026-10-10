@@ -38,9 +38,9 @@ Open the URL Vite prints (usually `http://localhost:5173`).
 
 Use the **trailing slash** in the URL. Safari/iPhone often strips it; without `/` at the end GitHub used to show a platform 404 about missing `index.html`. Deploy from the `gh-pages` branch restores `/nzpolitik` → `/nzpolitik/` redirect.
 
-Hosted from the dedicated public repo [`Liight/nzpolitik`](https://github.com/Liight/nzpolitik) (not the monorepo). Push to `main` runs [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml): `npm ci` → `npm test` → `npm run build:pages` → publish `dist/` to branch `gh-pages`.
+Hosted from the dedicated **public** repo [`Liight/nzpolitik`](https://github.com/Liight/nzpolitik) (not the monorepo). Free GitHub Pages requires a public repo. Push to `main` runs [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml): `npm ci` → `npm test` → `npm run build:pages` → publish `dist/` to branch `gh-pages`.
 
-First-time setup: **Settings → Pages → Deploy from a branch** → `gh-pages` / `/` (not GitHub Actions).
+First-time setup: repo **public**; **Settings → Pages → Deploy from a branch** → `gh-pages` / `/` (not GitHub Actions).
 
 Local Pages-shaped build:
 
