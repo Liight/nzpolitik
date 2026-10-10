@@ -138,14 +138,16 @@ npm run typecheck
 ### Deploy to GitHub Pages
 
 1. Repo is **`Liight/nzpolitik`** (dedicated; not the monorepo origin)
-2. Push `main` → workflow `Deploy GitHub Pages` builds with `npm run build:pages`
-3. Live URL: `https://liight.github.io/nzpolitik/`
-4. Locally verify Pages base: `npm run build:pages` then `npm run preview` (asset paths under `/nzpolitik/`)
+2. Pages source: branch **`gh-pages`** / root (workflow publishes `dist/` there)
+3. Push `main` → workflow `Deploy GitHub Pages` runs `npm run build:pages` then `peaceiris/actions-gh-pages`
+4. Live URL (keep trailing slash): `https://liight.github.io/nzpolitik/`
+5. Locally verify Pages base: `npm run build:pages` then `npm run preview` (asset paths under `/nzpolitik/`)
 
 ## Gotchas & Pitfalls
 
 - PowerShell: use `;` not `&&`
 - GitHub Pages project URL needs `base: /nzpolitik/` — use `npm run build:pages`, not plain `npm run build`, for that target
+- iPhone/Safari: bare `.../nzpolitik` (no slash) hit a platform 404 about `index.html`; prefer the slash URL; `gh-pages` branch deploy should redirect bare → slash
 - Do not point monorepo `origin` at `Liight/nzpolitik`; keep a separate git remote inside `nzpolitik/`
 - Official register page may be blocked by bot protection; use PDF downloads and vote.nz assets
 - EC logo register PDF is often Incapsula-blocked from curl/PowerShell — open in a real browser and save to `notes/assets/`, then extract with `scripts/extract-party-logos.mjs`

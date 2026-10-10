@@ -141,7 +141,7 @@ Public site at `https://liight.github.io/nzpolitik/` from repo `Liight/nzpolitik
 
 ### How it works
 
-`GITHUB_PAGES=true` (via `npm run build:pages`) sets Vite `base` to `/nzpolitik/`. `BrowserRouter` uses `import.meta.env.BASE_URL`. `postbuild` copies `index.html` to `404.html` so deep links refresh on Pages. Workflow: test → build:pages → `upload-pages-artifact` → `deploy-pages`. Enable **Settings → Pages → Source: GitHub Actions** once.
+`GITHUB_PAGES=true` (via `npm run build:pages`) sets Vite `base` to `/nzpolitik/`. `BrowserRouter` basename strips the trailing slash (`/nzpolitik`). `postbuild` writes `404.html`, `.nojekyll`, and a bare-path client redirect. Workflow: test → build:pages → push `dist/` to branch `gh-pages` (`peaceiris/actions-gh-pages`). Pages source is **Deploy from a branch** (`gh-pages` / `/`) — not Actions artifacts — so `/nzpolitik` redirects to `/nzpolitik/` (Safari/iPhone).
 
 ## Party logos (identification only)
 
