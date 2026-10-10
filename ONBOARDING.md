@@ -64,18 +64,19 @@ npm run typecheck
 
 1. DevTools device mode at **375px** width (spot-check 390)
 2. Confirm header is a single row with hamburger; open menu, navigate, confirm panel closes
-3. On each `/compare*` route with 2–4 parties selected: swipe hint visible, table scrolls inside its box (no page-level horizontal scroll), sticky row labels stay readable
+3. On each `/compare*` route with 2–4 parties selected: swipe hint visible, table scrolls inside its box (no page-level horizontal scroll), sticky row labels stay readable; mobile shows “Results ready — scroll down” / View results when the matrix appears
 4. Nav is drawer below `md`; desktop horizontal links from `md` up
-5. `/democracy` should read as stacked cards/timeline with no horizontal page scroll
+5. `/democracy` should read as stacked cards/timeline (Why vote → Myths → History) with no horizontal page scroll
 
-### Add a democracy timeline event or why-vote block
+### Add a democracy timeline event, why-vote block, or voting myth
 
 1. Add citation URLs to `notes/sources.md` + `src/data/sources.json` (new Sxx IDs)
-2. Edit `src/data/civic.json` (`history` or `whyVote`); keep every item with `sourceIds`
-3. If changing the turnout worked example numbers, update `turnoutExample` and confirm `src/lib/turnout.test.ts` still matches
-4. Note research in `notes/2026-10-11-democracy-civic.md` (or a new dated note)
-5. Stay non-prescriptive — no party preference language
-6. Run `npm test`
+2. Edit `src/data/civic.json` (`history`, `whyVote`, or `myths`); keep every item with `sourceIds`
+3. Myths use `myth` (claim) + `response` (rebuttal) — stay non-prescriptive; be honest about the 5% threshold
+4. If changing the turnout worked example numbers, update `turnoutExample` and confirm `src/lib/turnout.test.ts` still matches
+5. Note research in `notes/2026-10-11-democracy-civic.md` or `notes/2026-10-11-voting-myths.md`
+6. Stay non-prescriptive — no party preference language
+7. Run `npm test`
 
 ### Citation chips and link health
 

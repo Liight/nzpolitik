@@ -40,5 +40,5 @@ export function compareStatusMessage(selectedCount: number): string {
   if (selectedCount > MAX_COMPARE) {
     return `Select at most ${MAX_COMPARE} parties.`;
   }
-  return `Comparing ${selectedCount} parties.`;
+  return `Comparing ${selectedCount} parties. Results below.`;
 }

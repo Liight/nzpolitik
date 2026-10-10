@@ -10,6 +10,7 @@ import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CitationChips } from "../components/CitationChips";
 import { CoalitionStanceBadge } from "../components/CoalitionStanceBadge";
+import { CompareResultsAnchor } from "../components/CompareResultsAnchor";
 import {
   COMPARE_PARTY_COL,
   COMPARE_STICKY_BODY,
@@ -52,6 +53,7 @@ function CellList({ items }: { items: string[] }) {
 export function CoalitionComparePage() {
   const [params] = useSearchParams();
   const [selected, setSelected] = useState<string[]>(() => parseInitial(params));
+  const ready = isCompareReady(selected);
 
   const selectedParties = useMemo(
     () =>
@@ -117,77 +119,78 @@ export function CoalitionComparePage() {
         </ul>
       </fieldset>
 
-      {!isCompareReady(selected) && (
-        <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
-      )}
-
-      {isCompareReady(selected) && (
-        <CompareScroll>
-          <table className="min-w-full text-sm">
-            <thead>
-              <tr className="bg-ink-950 text-sand-50">
-                <th className={COMPARE_STICKY_HEADER}>Topic</th>
-                {selectedParties.map((party) => (
-                  <th key={party.id} className={COMPARE_PARTY_COL}>
-                    <Link
-                      to={`/parties/${party.id}`}
-                      className="inline-flex items-center gap-2 underline decoration-fern-500"
-                    >
-                      <PartyLogo partyId={party.id} size="sm" />
-                      {party.abbreviation}
-                    </Link>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {(
-                [
-                  ["Stance", "stance"],
-                  ["Prefers / open to", "prefers"],
-                  ["Rules out", "rulesOut"],
-                  ["Bottom lines", "bottomLines"],
-                  ["Summary", "summary"],
-                ] as const
-              ).map(([label, key]) => (
-                <tr key={key} className="border-t border-ink-900/10 align-top">
-                  <th className={COMPARE_STICKY_BODY}>{label}</th>
-                  {selectedParties.map((party) => {
-                    const row = getPartyCoalition(party.id);
-                    if (!row) {
-                      return (
-                        <td key={party.id} className="p-3 text-ink-500">
-                          —
-                        </td>
-                      );
-                    }
-                    if (key === "stance") {
-                      return (
-                        <td key={party.id} className="p-3">
-                          <CoalitionStanceBadge stance={row.stance} />
-                        </td>
-                      );
-                    }
-                    if (key === "summary") {
-                      return (
-                        <td key={party.id} className="p-3">
-                          <p className="text-xs text-ink-700 mb-2">{row.summary}</p>
-                          <CitationChips sourceIds={row.sourceIds} />
-                        </td>
-                      );
-                    }
-                    return (
-                      <td key={party.id} className="p-3">
-                        <CellList items={row[key]} />
-                      </td>
-                    );
-                  })}
+      <CompareResultsAnchor ready={ready}>
+        {!ready && (
+          <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
+        )}
+        {ready && (
+          <CompareScroll>
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="bg-ink-950 text-sand-50">
+                  <th className={COMPARE_STICKY_HEADER}>Topic</th>
+                  {selectedParties.map((party) => (
+                    <th key={party.id} className={COMPARE_PARTY_COL}>
+                      <Link
+                        to={`/parties/${party.id}`}
+                        className="inline-flex items-center gap-2 underline decoration-fern-500"
+                      >
+                        <PartyLogo partyId={party.id} size="sm" />
+                        {party.abbreviation}
+                      </Link>
+                    </th>
+                  ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </CompareScroll>
-      )}
+              </thead>
+              <tbody>
+                {(
+                  [
+                    ["Stance", "stance"],
+                    ["Prefers / open to", "prefers"],
+                    ["Rules out", "rulesOut"],
+                    ["Bottom lines", "bottomLines"],
+                    ["Summary", "summary"],
+                  ] as const
+                ).map(([label, key]) => (
+                  <tr key={key} className="border-t border-ink-900/10 align-top">
+                    <th className={COMPARE_STICKY_BODY}>{label}</th>
+                    {selectedParties.map((party) => {
+                      const row = getPartyCoalition(party.id);
+                      if (!row) {
+                        return (
+                          <td key={party.id} className="p-3 text-ink-500">
+                            —
+                          </td>
+                        );
+                      }
+                      if (key === "stance") {
+                        return (
+                          <td key={party.id} className="p-3">
+                            <CoalitionStanceBadge stance={row.stance} />
+                          </td>
+                        );
+                      }
+                      if (key === "summary") {
+                        return (
+                          <td key={party.id} className="p-3">
+                            <p className="text-xs text-ink-700 mb-2">{row.summary}</p>
+                            <CitationChips sourceIds={row.sourceIds} />
+                          </td>
+                        );
+                      }
+                      return (
+                        <td key={party.id} className="p-3">
+                          <CellList items={row[key]} />
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </CompareScroll>
+        )}
+      </CompareResultsAnchor>
     </div>
   );
 }

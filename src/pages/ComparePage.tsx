@@ -9,6 +9,7 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CitationChips } from "../components/CitationChips";
+import { CompareResultsAnchor } from "../components/CompareResultsAnchor";
 import {
   COMPARE_PARTY_COL,
   COMPARE_STICKY_BODY,
@@ -36,6 +37,7 @@ function parseInitial(params: URLSearchParams): string[] {
 export function ComparePage() {
   const [params] = useSearchParams();
   const [selected, setSelected] = useState<string[]>(() => parseInitial(params));
+  const ready = isCompareReady(selected);
 
   const selectedParties = useMemo(
     () => selected.map((id) => parties.find((p) => p.id === id)).filter(Boolean),
@@ -97,54 +99,55 @@ export function ComparePage() {
         </ul>
       </fieldset>
 
-      {!isCompareReady(selected) && (
-        <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
-      )}
-
-      {isCompareReady(selected) && (
-        <CompareScroll>
-          <table className="min-w-full text-sm">
-            <thead>
-              <tr className="bg-ink-950 text-sand-50">
-                <th className={COMPARE_STICKY_HEADER}>Issue</th>
-                {selectedParties.map((party) =>
-                  party ? (
-                    <th key={party.id} className={COMPARE_PARTY_COL}>
-                      <Link
-                        to={`/parties/${party.id}`}
-                        className="inline-flex items-center gap-2 underline decoration-fern-500"
-                      >
-                        <PartyLogo partyId={party.id} size="sm" />
-                        {party.abbreviation}
-                      </Link>
-                    </th>
-                  ) : null,
-                )}
-              </tr>
-            </thead>
-            <tbody>
-              {policiesFile.issues.map((issue) => (
-                <tr key={issue.id} className="border-t border-ink-900/10 align-top">
-                  <th className={COMPARE_STICKY_BODY}>{issue.label}</th>
-                  {selected.map((partyId) => {
-                    const row = getPartyPolicies(partyId)[issue.id];
-                    if (!row) {
-                      return <td key={partyId} className="p-3 text-ink-500">—</td>;
-                    }
-                    return (
-                      <td key={partyId} className="p-3">
-                        <StanceBadge stance={row.stance} />
-                        <p className="mt-2 text-ink-700">{row.summary}</p>
-                        <CitationChips sourceIds={row.sourceIds} />
-                      </td>
-                    );
-                  })}
+      <CompareResultsAnchor ready={ready}>
+        {!ready && (
+          <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
+        )}
+        {ready && (
+          <CompareScroll>
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="bg-ink-950 text-sand-50">
+                  <th className={COMPARE_STICKY_HEADER}>Issue</th>
+                  {selectedParties.map((party) =>
+                    party ? (
+                      <th key={party.id} className={COMPARE_PARTY_COL}>
+                        <Link
+                          to={`/parties/${party.id}`}
+                          className="inline-flex items-center gap-2 underline decoration-fern-500"
+                        >
+                          <PartyLogo partyId={party.id} size="sm" />
+                          {party.abbreviation}
+                        </Link>
+                      </th>
+                    ) : null,
+                  )}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </CompareScroll>
-      )}
+              </thead>
+              <tbody>
+                {policiesFile.issues.map((issue) => (
+                  <tr key={issue.id} className="border-t border-ink-900/10 align-top">
+                    <th className={COMPARE_STICKY_BODY}>{issue.label}</th>
+                    {selected.map((partyId) => {
+                      const row = getPartyPolicies(partyId)[issue.id];
+                      if (!row) {
+                        return <td key={partyId} className="p-3 text-ink-500">—</td>;
+                      }
+                      return (
+                        <td key={partyId} className="p-3">
+                          <StanceBadge stance={row.stance} />
+                          <p className="mt-2 text-ink-700">{row.summary}</p>
+                          <CitationChips sourceIds={row.sourceIds} />
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </CompareScroll>
+        )}
+      </CompareResultsAnchor>
     </div>
   );
 }

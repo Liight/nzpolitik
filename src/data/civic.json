@@ -75,5 +75,37 @@
     "nonVoters": 30,
     "blocShareOfVotesCast": 0.51,
     "explanation": "Illustrative arithmetic only — not a forecast for any election."
-  }
+  },
+  "myths": [
+    {
+      "id": "minor-wasted",
+      "myth": "A party vote for a smaller party is a wasted vote",
+      "response": "Under MMP the party vote mainly decides how many seats each party gets in Parliament. If a party reaches about 5% of the nationwide party vote, or wins an electorate seat, it can win list MPs — that is proportional representation, not first-past-the-post winner-takes-all. Honest caveat: a party vote for a party that finishes below the threshold and wins no electorate does not elect list MPs; that is how the published threshold works, not a reason to treat every non-major vote as pointless. See About for the 5% rule and electorate path.",
+      "sourceIds": ["S05", "S147"]
+    },
+    {
+      "id": "only-electorate-matters",
+      "myth": "Only the electorate vote matters",
+      "response": "You cast two votes. The electorate vote chooses a local MP. The party vote is the main driver of each party's overall seat share. Focusing only on the electorate race underuses the proportional half of the system that MMP was designed around.",
+      "sourceIds": ["S02", "S05"]
+    },
+    {
+      "id": "must-vote-big-two",
+      "myth": "You must vote for a big party or government will not form",
+      "response": "Under MMP, governments are often coalitions or confidence-and-supply arrangements, not single-party majorities. Parties that clear the threshold or hold seats can shape who forms government and which policies get through — even when they are not the largest party. Your party vote is about who you want in Parliament, not only who you guess will lead alone.",
+      "sourceIds": ["S05", "S147"]
+    },
+    {
+      "id": "one-vote-useless",
+      "myth": "My single ballot cannot change anything",
+      "response": "Close electorate races and list-seat allocations are decided by margins. When turnout is lower, each ballot that is cast has more weight among the votes that fill seats. One vote is not a guarantee of a different outcome, but sitting out does not freeze Parliament — it leaves the decision to those who do vote.",
+      "sourceIds": ["S147", "S02"]
+    },
+    {
+      "id": "ticket-split-invalid",
+      "myth": "Splitting your party and electorate votes is wrong or invalid",
+      "response": "Ticket-splitting — giving your party vote to one party and your electorate vote to a candidate from another — is a designed feature of MMP. Both votes count when cast correctly on a valid ballot. Official guidance explains how to mark the two votes; splitting them does not cancel your ballot.",
+      "sourceIds": ["S02", "S05"]
+    }
+  ]
 }

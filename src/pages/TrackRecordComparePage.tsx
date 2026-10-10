@@ -10,6 +10,7 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CitationChips } from "../components/CitationChips";
+import { CompareResultsAnchor } from "../components/CompareResultsAnchor";
 import {
   COMPARE_PARTY_COL_WIDE,
   COMPARE_STICKY_BODY,
@@ -70,6 +71,7 @@ export function TrackRecordComparePage() {
   const [params] = useSearchParams();
   const [selected, setSelected] = useState<string[]>(() => parseInitial(params));
   const [windowFilter, setWindowFilter] = useState<WindowFilter>("all");
+  const ready = isCompareReady(selected);
 
   const selectable = useMemo(
     () =>
@@ -172,76 +174,77 @@ export function TrackRecordComparePage() {
         </ul>
       </fieldset>
 
-      {!isCompareReady(selected) && (
-        <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
-      )}
-
-      {isCompareReady(selected) && (
-        <CompareScroll>
-          <table className="min-w-full text-sm">
-            <thead>
-              <tr className="bg-ink-950 text-sand-50">
-                <th className={COMPARE_STICKY_HEADER}>Issue</th>
-                {selectedParties.map((party) => (
-                  <th key={party.id} className={COMPARE_PARTY_COL_WIDE}>
-                    <Link
-                      to={`/parties/${party.id}`}
-                      className="inline-flex items-center gap-2 underline decoration-fern-500"
-                    >
-                      <PartyLogo partyId={party.id} size="sm" />
-                      {party.abbreviation}
-                    </Link>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {issueIds.length === 0 ? (
-                <tr>
-                  <td
-                    className="p-3 text-ink-700"
-                    colSpan={selectedParties.length + 1}
-                  >
-                    No rows in this window for the selected parties.
-                  </td>
+      <CompareResultsAnchor ready={ready}>
+        {!ready && (
+          <p className="text-ink-700">Choose at least two parties to see the matrix.</p>
+        )}
+        {ready && (
+          <CompareScroll>
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="bg-ink-950 text-sand-50">
+                  <th className={COMPARE_STICKY_HEADER}>Issue</th>
+                  {selectedParties.map((party) => (
+                    <th key={party.id} className={COMPARE_PARTY_COL_WIDE}>
+                      <Link
+                        to={`/parties/${party.id}`}
+                        className="inline-flex items-center gap-2 underline decoration-fern-500"
+                      >
+                        <PartyLogo partyId={party.id} size="sm" />
+                        {party.abbreviation}
+                      </Link>
+                    </th>
+                  ))}
                 </tr>
-              ) : (
-                issueIds.map((issueId) => (
-                  <tr key={issueId} className="border-t border-ink-900/10 align-top">
-                    <th className={COMPARE_STICKY_BODY}>{issueLabel(issueId)}</th>
-                    {selectedParties.map((party) => {
-                      const row = bestRow(
-                        getPartyTrackRecord(party.id),
-                        issueId,
-                        windowFilter,
-                      );
-                      if (!row) {
+              </thead>
+              <tbody>
+                {issueIds.length === 0 ? (
+                  <tr>
+                    <td
+                      className="p-3 text-ink-700"
+                      colSpan={selectedParties.length + 1}
+                    >
+                      No rows in this window for the selected parties.
+                    </td>
+                  </tr>
+                ) : (
+                  issueIds.map((issueId) => (
+                    <tr key={issueId} className="border-t border-ink-900/10 align-top">
+                      <th className={COMPARE_STICKY_BODY}>{issueLabel(issueId)}</th>
+                      {selectedParties.map((party) => {
+                        const row = bestRow(
+                          getPartyTrackRecord(party.id),
+                          issueId,
+                          windowFilter,
+                        );
+                        if (!row) {
+                          return (
+                            <td key={party.id} className="p-3 text-ink-500 text-xs">
+                              No row
+                            </td>
+                          );
+                        }
                         return (
-                          <td key={party.id} className="p-3 text-ink-500 text-xs">
-                            No row
+                          <td key={party.id} className="p-3 space-y-2">
+                            <TrackRecordStatusBadge status={row.status} />
+                            <p className="text-xs text-ink-700">
+                              <span className="font-semibold">Pledge:</span> {row.pledge}
+                            </p>
+                            <p className="text-xs text-ink-700">
+                              <span className="font-semibold">Outcome:</span> {row.outcome}
+                            </p>
+                            <CitationChips sourceIds={row.sourceIds} />
                           </td>
                         );
-                      }
-                      return (
-                        <td key={party.id} className="p-3 space-y-2">
-                          <TrackRecordStatusBadge status={row.status} />
-                          <p className="text-xs text-ink-700">
-                            <span className="font-semibold">Pledge:</span> {row.pledge}
-                          </p>
-                          <p className="text-xs text-ink-700">
-                            <span className="font-semibold">Outcome:</span> {row.outcome}
-                          </p>
-                          <CitationChips sourceIds={row.sourceIds} />
-                        </td>
-                      );
-                    })}
-                  </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </CompareScroll>
-      )}
+                      })}
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          </CompareScroll>
+        )}
+      </CompareResultsAnchor>
     </div>
   );
 }

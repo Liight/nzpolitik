@@ -242,14 +242,22 @@ describe("viability.json", () => {
 });
 
 describe("civic.json", () => {
-  it("has cited why-vote blocks and a history timeline", () => {
+  it("has cited why-vote blocks, myths, and a history timeline", () => {
     const file = CivicFileSchema.parse(civicJson);
     const known = new Set(Object.keys(sourcesJson));
     expect(file.whyVote.length).toBeGreaterThanOrEqual(3);
+    expect(file.myths.length).toBeGreaterThanOrEqual(4);
     expect(file.history.length).toBeGreaterThanOrEqual(5);
     for (const block of file.whyVote) {
       for (const sid of block.sourceIds) {
         expect(known.has(sid), `whyVote.${block.id} unknown ${sid}`).toBe(true);
+      }
+    }
+    for (const myth of file.myths) {
+      expect(myth.myth.length).toBeGreaterThan(0);
+      expect(myth.response.length).toBeGreaterThan(0);
+      for (const sid of myth.sourceIds) {
+        expect(known.has(sid), `myths.${myth.id} unknown ${sid}`).toBe(true);
       }
     }
     for (const event of file.history) {

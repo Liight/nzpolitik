@@ -7,7 +7,7 @@
  * - Track-record rows require >=2 sourceIds (pledge + outcome)
  * - Branding: logos in public/party-logos; colours for accent/monogram only
  * - Coalition/viability: every party has a cited row; unknown when unpublished
- * - Civic: why-vote blocks + history timeline; each item needs sourceIds
+ * - Civic: why-vote, myths, history timeline; each item needs sourceIds
  * - Dependencies: zod
  * @see src/data/ for JSON sources of truth
  */
@@ -273,11 +273,19 @@ export const CivicTurnoutExampleSchema = z.object({
   explanation: z.string().min(1),
 });
 
+export const CivicMythSchema = z.object({
+  id: z.string().min(1),
+  myth: z.string().min(1),
+  response: z.string().min(1),
+  sourceIds: z.array(z.string()).min(1),
+});
+
 export const CivicFileSchema = z.object({
   lastVerified: z.string().min(1),
   whyVote: z.array(CivicWhyVoteSchema).min(3),
   history: z.array(CivicHistoryEventSchema).min(5),
   turnoutExample: CivicTurnoutExampleSchema,
+  myths: z.array(CivicMythSchema).min(4),
 });
 
 export type Party = z.infer<typeof PartySchema>;
@@ -298,3 +306,4 @@ export type ElectorateStrategy = z.infer<typeof ElectorateStrategySchema>;
 export type CivicFile = z.infer<typeof CivicFileSchema>;
 export type CivicWhyVote = z.infer<typeof CivicWhyVoteSchema>;
 export type CivicHistoryEvent = z.infer<typeof CivicHistoryEventSchema>;
+export type CivicMyth = z.infer<typeof CivicMythSchema>;

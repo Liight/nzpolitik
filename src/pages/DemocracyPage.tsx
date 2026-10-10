@@ -1,10 +1,10 @@
 /**
  * @file DemocracyPage.tsx
- * @description Why vote + NZ democratic history (cited, non-prescriptive)
+ * @description Why vote, voting myths, NZ democratic history (cited, non-prescriptive)
  * @onboarding
  * - Route: /democracy
  * - Content from civic.json; turnout maths via turnout.ts
- * - Mobile: vertical timeline / stacked cards, max-w-3xl
+ * - Myths sit between why-vote and history; link About for threshold
  * - Dependencies: civic data, CitationChips, election links
  */
 import { Link } from "react-router-dom";
@@ -115,6 +115,37 @@ export function DemocracyPage() {
             </li>
           </ul>
         </div>
+      </section>
+
+      <section className="space-y-4" aria-labelledby="myths-heading">
+        <h2
+          id="myths-heading"
+          className="font-display text-2xl sm:text-3xl font-bold text-ink-950"
+        >
+          Voting myths
+        </h2>
+        <p className="text-ink-700 text-sm sm:text-base">
+          Common New Zealand voting claims, answered with how MMP actually works — system literacy,
+          not campaign advice. For the 5% threshold detail, see{" "}
+          <Link to="/about" className="underline text-fern-700">
+            About &amp; MMP
+          </Link>
+          .
+        </p>
+        <ul className="space-y-4">
+          {civicFile.myths.map((item) => (
+            <li
+              key={item.id}
+              className="rounded-xl border border-ink-900/10 bg-white/80 p-4 sm:p-5 space-y-2"
+            >
+              <h3 className="font-display text-lg sm:text-xl font-bold text-ink-950">
+                Myth: {item.myth}
+              </h3>
+              <p className="text-ink-700 text-sm sm:text-base">{item.response}</p>
+              <CitationChips sourceIds={item.sourceIds} />
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="space-y-4" aria-labelledby="history-heading">

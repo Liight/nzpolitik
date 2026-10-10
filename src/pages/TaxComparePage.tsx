@@ -9,6 +9,7 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CitationChips } from "../components/CitationChips";
+import { CompareResultsAnchor } from "../components/CompareResultsAnchor";
 import {
   COMPARE_PARTY_COL_WIDE,
   COMPARE_STICKY_BODY,
@@ -63,6 +64,7 @@ function bestRowForInstrument(
 export function TaxComparePage() {
   const [params] = useSearchParams();
   const [selected, setSelected] = useState<string[]>(() => parseInitial(params));
+  const ready = isCompareReady(selected);
 
   const selectedParties = useMemo(
     () =>
@@ -120,63 +122,64 @@ export function TaxComparePage() {
         </ul>
       </fieldset>
 
-      {!isCompareReady(selected) && (
-        <p className="text-ink-700">Choose at least two parties to see the tax matrix.</p>
-      )}
-
-      {isCompareReady(selected) && (
-        <CompareScroll>
-          <table className="min-w-full text-sm">
-            <thead>
-              <tr className="bg-ink-950 text-sand-50">
-                <th className={COMPARE_STICKY_HEADER}>Instrument</th>
-                {selectedParties.map((party) => (
-                  <th key={party.id} className={COMPARE_PARTY_COL_WIDE}>
-                    <Link
-                      to={`/parties/${party.id}`}
-                      className="inline-flex items-center gap-2 underline decoration-fern-500"
-                    >
-                      <PartyLogo partyId={party.id} size="sm" />
-                      {party.abbreviation}
-                    </Link>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {taxesFile.instruments.map((instrument) => (
-                <tr key={instrument} className="border-t border-ink-900/10 align-top">
-                  <th className={COMPARE_STICKY_BODY}>
-                    {instrumentLabels[instrument]}
-                  </th>
-                  {selected.map((partyId) => {
-                    const row = bestRowForInstrument(
-                      getPartyTaxes(partyId),
-                      instrument,
-                    );
-                    if (!row) {
+      <CompareResultsAnchor ready={ready}>
+        {!ready && (
+          <p className="text-ink-700">Choose at least two parties to see the tax matrix.</p>
+        )}
+        {ready && (
+          <CompareScroll>
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="bg-ink-950 text-sand-50">
+                  <th className={COMPARE_STICKY_HEADER}>Instrument</th>
+                  {selectedParties.map((party) => (
+                    <th key={party.id} className={COMPARE_PARTY_COL_WIDE}>
+                      <Link
+                        to={`/parties/${party.id}`}
+                        className="inline-flex items-center gap-2 underline decoration-fern-500"
+                      >
+                        <PartyLogo partyId={party.id} size="sm" />
+                        {party.abbreviation}
+                      </Link>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {taxesFile.instruments.map((instrument) => (
+                  <tr key={instrument} className="border-t border-ink-900/10 align-top">
+                    <th className={COMPARE_STICKY_BODY}>
+                      {instrumentLabels[instrument]}
+                    </th>
+                    {selected.map((partyId) => {
+                      const row = bestRowForInstrument(
+                        getPartyTaxes(partyId),
+                        instrument,
+                      );
+                      if (!row) {
+                        return (
+                          <td key={partyId} className="p-3 text-ink-500">
+                            No row
+                          </td>
+                        );
+                      }
                       return (
-                        <td key={partyId} className="p-3 text-ink-500">
-                          No row
+                        <td key={partyId} className="p-3">
+                          <TaxStatusBadge status={row.status} />
+                          <p className="mt-2 font-semibold text-ink-950">{row.title}</p>
+                          <p className="mt-1 text-ink-700">{row.summary}</p>
+                          <p className="mt-1 text-xs text-ink-600">{row.rateOrThreshold}</p>
+                          <CitationChips sourceIds={row.sourceIds} />
                         </td>
                       );
-                    }
-                    return (
-                      <td key={partyId} className="p-3">
-                        <TaxStatusBadge status={row.status} />
-                        <p className="mt-2 font-semibold text-ink-950">{row.title}</p>
-                        <p className="mt-1 text-ink-700">{row.summary}</p>
-                        <p className="mt-1 text-xs text-ink-600">{row.rateOrThreshold}</p>
-                        <CitationChips sourceIds={row.sourceIds} />
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </CompareScroll>
-      )}
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </CompareScroll>
+        )}
+      </CompareResultsAnchor>
     </div>
   );
 }

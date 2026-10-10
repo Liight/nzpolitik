@@ -54,7 +54,8 @@ describe("compareStatusMessage", () => {
     expect(compareStatusMessage(1)).toContain("at least");
   });
 
-  it("confirms when ready", () => {
+  it("confirms when ready and points below", () => {
     expect(compareStatusMessage(3)).toContain("Comparing 3");
+    expect(compareStatusMessage(3)).toContain("Results below");
   });
 });

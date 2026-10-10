@@ -13,6 +13,7 @@
 - [x] Track-record compare matrix (`/compare/track-record`)
 - [x] Democracy & why-vote page (`civic.json`, `/democracy`)
 - [x] Track-record ~20y windows (2005–2026) + cited historical rows; Alliance left off pool (pre-window)
+- [x] Voting myths section on `/democracy` + mobile compare “scroll to results” cue
 
 ## Next
 

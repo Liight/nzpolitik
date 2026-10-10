@@ -111,22 +111,21 @@ Below `md`, primary nav collapses to a hamburger panel in `Layout.tsx` (closes o
 
 Party detail shows Coalition section + MMP context line. `/compare/coalition` matrices rows; About explains the 5% threshold without telling anyone how to vote. Track-record compare at `/compare/track-record` uses the five-window rows for the six parliamentary / support parties.
 
-## Civic education: democracy & why vote
+## Civic education: democracy, myths & why vote
 
 ### What
 
-`/democracy` presents cited why-vote copy (including a low-turnout arithmetic example) and a NZ democratic history timeline from `civic.json`.
+`/democracy` presents cited why-vote copy (including a low-turnout arithmetic example), a **Voting myths** section (MMP literacy claims such as “minor party vote is wasted”), and a NZ democratic history timeline from `civic.json`.
 
 ### Why this over alternatives
 
 - Party compare alone assumes voters already know why turnout matters and how the franchise evolved.
-- A separate values quiz or seat calculator would push toward prescription or prediction; this page stays explanatory.
-- Two nav destinations would crowd chrome; one page with Why vote first then History is enough.
+- Myths that import FPP “wasted vote” logic into MMP need a dedicated, cited rebuttal — not a quiz or seat calculator that pushes prescription.
+- Two nav destinations would crowd chrome; one page with Why vote → Myths → History is enough.
 
 ### How it works
 
-Content is Zod-validated JSON with `sourceIds` on every block. `turnout.ts` computes effective share of enrolled electors for the worked example. Official enrol/vote links reuse `election.links`. MMP threshold detail stays on `/about`.
-
+Content is Zod-validated JSON with `sourceIds` on every block (`whyVote`, `myths`, `history`). `turnout.ts` computes effective share of enrolled electors for the worked example. Official enrol/vote links reuse `election.links`. MMP threshold detail stays on `/about`. Compare pages use `CompareResultsAnchor` so mobile users get a “Results ready — scroll down” cue when the matrix appears.
 ## Hosting: GitHub Pages (dedicated repo)
 
 ### What
